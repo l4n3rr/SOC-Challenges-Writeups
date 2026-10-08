@@ -1,1 +1,23 @@
 # SOC-Challenges-Writeups
+# 🛡️ My Cybersecurity & CTF Writeups
+
+Welcome to my hands-on security portfolio. This repository serves as a centralized hub documenting my methodology, analytical thought process, and technical skills as I solve challenges across various security platforms.
+
+## 👤 About Me
+I am an aspiring SOC Analyst focused on defensive security, cloud infrastructure, and threat detection. I use these challenges to sharpen my skills in log analysis, network forensics, and system hardening.
+
+---
+
+## 📂 Completed Challenges & Rooms
+
+This index links directly to my step-by-step walkthroughs and methodology for each completed room:
+
+| Platform | Challenge / Room Name | Walkthrough Link |
+| :--- | :--- | :--- | :--- |
+| TryHackMe | **Servidae** (SOC Level 2 Capstone Challenge) | [View Writeup](./Rooms/Brutus/README.md) |
+
+---
+
+## 🚀 How to Navigate This Repo
+1. Click on any link in the table above to open the dedicated writeup folder.
+2. Inside each folder, you will find a detailed `README.md` containing the step-by-step resolution, terminal commands used, and cropped screenshots illustrating key evidence.
