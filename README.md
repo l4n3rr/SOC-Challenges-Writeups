@@ -1,5 +1,5 @@
 # SOC-Challenges-Writeups
-# 🛡️ My Cybersecurity & CTF Writeups
+# 🛡️ My Cybersecurity -- CTFs, Platforms, Home Lab, Writeups
 
 Welcome to my hands-on security portfolio. This repository serves as a centralized hub documenting my methodology, analytical thought process, and technical skills as I solve challenges across various security platforms.
 
