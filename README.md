@@ -13,7 +13,7 @@ I am an aspiring SOC Analyst focused on defensive security, cloud infrastructure
 This index links directly to my step-by-step walkthroughs and methodology for each completed room:
 
 | Platform | Challenge / Room Name | Walkthrough Link |
-| :--- | :--- | :--- | :--- |
+
 | TryHackMe | **Servidae** (SOC Level 2 Capstone Challenge) | [View Writeup](./Rooms/Brutus/README.md) |
 
 ---
