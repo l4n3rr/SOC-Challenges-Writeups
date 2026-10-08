@@ -14,7 +14,7 @@ This index links directly to my step-by-step walkthroughs and methodology for ea
 
 | Platform | Challenge / Room Name | Walkthrough Link |
 
-| TryHackMe | **Servidae** (SOC Level 2 Capstone Challenge) | [View Writeup](./Rooms/Brutus/README.md) |
+| TryHackMe | **Servidae** (SOC Level 2 Capstone Challenge) | [View Writeup](./TryHackMe/Rooms/Servidae/README.md) |
 
 ---
 
