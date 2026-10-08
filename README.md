@@ -1,16 +1,16 @@
 # SOC-Challenges-Writeups
-# 🛡️ My Cybersecurity -- CTFs, Platforms, Home Lab, Writeups
+# 🛡️ My Cybersecurity -- CTFs, Platforms, Home Lab WRITEUPS
 
-Welcome to my hands-on security portfolio. This repository serves as a centralized hub documenting my methodology, analytical thought process, and technical skills as I solve challenges across various security platforms.
+This repository serves as a centralized hub documenting my methodology, analytical thought process, and technical skills as I solve challenges.
 
 ## 👤 About Me
-I am an aspiring SOC Analyst focused on defensive security, cloud infrastructure, and threat detection. I use these challenges to sharpen my skills in log analysis, network forensics, and system hardening.
+I am an aspiring SOC Analyst focused on defensive security, cloud infrastructure, and threat detection. I use these challenges to sharpen my skills in log analysis, network forensics, DFIR, SIEM search logic & queries and documentation.
 
 ---
 
 ## 📂 Completed Challenges & Rooms
 
-This index links directly to my step-by-step walkthroughs and methodology for each completed room:
+Links directly to my step-by-step walkthroughs and methodology for each completed room:
 
 | Platform | Challenge / Room Name | Walkthrough Link |
 
