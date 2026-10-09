@@ -1,4 +1,4 @@
-##This step only involved 3 VMs (although, I didn't need the Kali Linux VM. I could've done it all with Splunk GUI on the DC)
+## This step only involved 3 VMs (although, I didn't need the Kali Linux VM. I could've done it all with Splunk GUI on the DC)
 
 #For now, the only Splunk Forwarder running is on the Windows 11 DC
 
