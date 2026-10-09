@@ -18,7 +18,7 @@
 
 
 
-## This log location I did not make capture on Splunk, so I went here, and apparently, one of the brute force attempts failed, but logged here as proof! And with research, this won't work because it relies on SMB legacy module. All proof right here.
+## SMB Server logs are not on Splunk, so I went here in Event Viewer, and apparently, one of the brute force attempts failed, and logged here as proof! I guess this also tells me that I have to allow a legacy module of SMB to work, so I can brute force with Hydra...
 
 
 
@@ -27,7 +27,7 @@
 
 
 
-## I decided to netexec enum on this exact endpoint logs and when it succeeded, showed on the Event Viewer!
+## I decided to netexec enum as a random idea, and it showed on the logs!
 
 
 ## Unintentional side quest: Enumerate the DC with netexec, then find it on endpoint logs - COMPLETE
