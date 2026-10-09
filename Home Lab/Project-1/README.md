@@ -12,6 +12,6 @@ Simple Project that involves 3 steps
 3. Implement IT Support / Help Desk Remediation
 
 
-But it turns out, there was a fun 0.5 step, which was ensuring that the Splunk Forwarders are actually working live!
+But it turns out, there was a fun 0.5 step, which was ensuring that Splunk and it's Forwarders are actually working live!
 
 
