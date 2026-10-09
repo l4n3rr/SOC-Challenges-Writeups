@@ -38,3 +38,5 @@
 
 
 ## Unintentional side quest: Enumerate the DC with netexec, then find it on endpoint logs - COMPLETE
+
+## I now have to find a way to brute force, either by an alternative method, or allow legacy SMB and go through with same method
