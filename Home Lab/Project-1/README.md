@@ -1,7 +1,7 @@
 ## Attack, Defend, Remediate Project
 
 0.5. Confirming that Splunk Server & Forwarders are working
-1. Brute Force Attack with Kali Linux [View Step](./Home%20Lab/Project-1/Step%201)
+1. Brute Force Attack with Kali Linux [View Step](./Home%20Lab/Project-1/Step%201/README.md)
 2. Investigate it in Splunk
 3. Implement IT Support / Help Desk Remediation
 
