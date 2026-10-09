@@ -16,7 +16,7 @@ Links directly to my step-by-step walkthroughs and methodology for each complete
 
 | TryHackMe | **Servidae** (SOC Level 2 Capstone Challenge) | [View Writeup](./TryHackMe/Rooms/Servidae/README.md) |
 
-| Home Lab | **Project-1** | [View Writeup](./Home Lab/Project-1/README.md/) |
+| Home Lab | **Project-1** | [View Writeup](./Home Lab/Project-1/README.md) |
 
 ---
 
