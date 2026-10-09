@@ -1,6 +1,6 @@
 <img width="759" height="476" alt="Fail" src="https://github.com/user-attachments/assets/71f65c8d-2420-4957-845e-6674003a3a80" />
 
-First attempt failed. Had to figure out why
+## First attempt failed. Had to figure out why
 
 
 
@@ -8,7 +8,7 @@ First attempt failed. Had to figure out why
 
 
 
-This gave me a hint to use the -m and call the domain!
+## This gave me a hint to use the -m and call the domain!
 
 
 
@@ -18,7 +18,7 @@ This gave me a hint to use the -m and call the domain!
 
 
 
-This log location I did not make capture on Splunk, so I went here, and apparently, one of the brute force attempts failed, but logged here as proof! And with research, this won't work because it relies on SMB legacy module. All proof right here.
+## This log location I did not make capture on Splunk, so I went here, and apparently, one of the brute force attempts failed, but logged here as proof! And with research, this won't work because it relies on SMB legacy module. All proof right here.
 
 
 
@@ -27,5 +27,7 @@ This log location I did not make capture on Splunk, so I went here, and apparent
 
 
 
-I decided to netexec enum on this exact endpoint logs and when it succeeded, showed on the Event Viewer!
-This turned into enumerating SMB on the DC and seeing it on the logs!
+## I decided to netexec enum on this exact endpoint logs and when it succeeded, showed on the Event Viewer!
+
+
+## Unintentional side quest: Enumerate the DC with netexec, then find it on endpoint logs - COMPLETE
