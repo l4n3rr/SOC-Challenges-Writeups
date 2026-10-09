@@ -7,7 +7,7 @@ This Home Lab has 4 VMs
 
 Simple Project that involves 3.5 steps
 
-0.5. Splunk & SplunkForwarders Running Confirmation
+0.5. Confirming that Splunk Server & Forwarders Are Working
 1. Brute Force Attack with Kali Linux
 2. Investigate it in Splunk
 3. Implement IT Support / Help Desk Remediation
