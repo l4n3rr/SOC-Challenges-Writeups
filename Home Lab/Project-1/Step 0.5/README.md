@@ -20,7 +20,7 @@
 <img width="985" height="133" alt="Screenshot (23)" src="https://github.com/user-attachments/assets/9cdf70db-32fb-4fc1-89e7-027e71809a6a" />
 
 
-## Really cool seeing the logs and discovering my computer name for both Windows Machines
+## Really cool seeing all this side-by-side and discovering my computer name for both Windows Machines
 
 
 <img width="1823" height="613" alt="Screenshot (25)" src="https://github.com/user-attachments/assets/383a693b-5a0b-4638-9693-987f4e0d825e" />
@@ -36,7 +36,7 @@
 
 
 
-## Really cool to see side to side! However, it didn't feel like this was coming in live. After some digging...
+## However, it didn't feel like this was coming in live. After some digging...
 
 
 <img width="1920" height="174" alt="Screenshot (29)" src="https://github.com/user-attachments/assets/4a452082-6be1-4519-a1cd-76d65502ccf0" />
@@ -45,9 +45,9 @@
 
 
 
-## All I had to do was set the TIME RANGE in SPLUNK within "Real-Time" rather than "Relative"! It was weird that it wasn't showing exact logs in the one minute window, but it started showing all live logs and details of them with the "All-Time" option.
+## All I had to do was set the TIME RANGE in SPLUNK within "Real-Time" rather than "Relative"! It was weird that it wasn't showing exact logs in the one minute window, but it started showing all live logs and details of them with the "All-Time" option. That was an OHSHIT moment.
 
-## That was an OH SHIT moment
+
 
 
 
