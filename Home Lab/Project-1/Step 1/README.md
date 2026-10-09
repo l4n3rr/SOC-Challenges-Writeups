@@ -26,7 +26,7 @@
 
 
 
-## I decided to netexec enum as a random idea, and it showed on the logs!
+## I decided to netexec enum as a random idea, and it showed on the logs! IP of my Attacker Box: 192.168.56.104
 
 
 
