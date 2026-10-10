@@ -1,4 +1,4 @@
-## First attempt failed. Had to figure out why
+<img width="887" height="921" alt="Screenshot (38)" src="https://github.com/user-attachments/assets/1a3ef4aa-4921-4331-8dc9-a682257c4a8f" />## First attempt failed. Had to figure out why
 
 
 
@@ -57,6 +57,14 @@ A few problems came to mind during this.
 2. Account lockout will apply to AD Domain, but probably not SMB?
 
 
+
+
+
+<img width="887" height="921" alt="Screenshot (38)" src="https://github.com/user-attachments/assets/cfd360e4-b2b4-4cee-ae6c-0c1f41fecff5" />
+<img width="557" height="404" alt="Screenshot (39)" src="https://github.com/user-attachments/assets/301a326e-79c8-412c-af09-ac792a256561" />
+<img width="387" height="240" alt="Screenshot (40)" src="https://github.com/user-attachments/assets/64ac55d6-4997-45cd-b358-6628b5396301" />
+<img width="757" height="485" alt="Screenshot (41)" src="https://github.com/user-attachments/assets/1b13e553-8173-4b57-b6c7-b3d09a17e245" />
+<img width="775" height="482" alt="Screenshot (42)" src="https://github.com/user-attachments/assets/3f67fce6-9b1a-4f61-ab88-76b1e8c4a5e9" />
 
 
 
