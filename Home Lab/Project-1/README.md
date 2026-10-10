@@ -1,9 +1,9 @@
 # Attack, Defend, Remediate, Test Remediation - Project
 
-0.5. Confirming that Splunk Server & Forwarders are working [View Here](./Step%200.5/README.md)
-1. Brute Force Attack with Kali Linux [View Here](./Step%201/README.md)
-2. Investigate it in Splunk [View Here](./Step%202/README.md)
-3. Implement IT Support / Help Desk Remediation, Test Remediation after [View Here](./Step%203/README.md)
+0.5.[Confirming that Splunk Server & Forwarders are working](./Step%200.5/README.md)
+1. [Brute Force Attack with Kali Linux](./Step%201/README.md)
+2. [Investigate it in Splunk](./Step%202/README.md)
+3. [Implement IT Support / Help Desk Remediation, Test Remediation after](./Step%203/README.md)
 
 ## 4 VMs
 1. Kali Linux Attack Box
