@@ -52,13 +52,6 @@
 
 ## I just had to set the RHOSTS (target), SMB User, Password List, StopOnceSucceeded. 
 
-PROBLEMS CAME TO MIND DURING THIS
-1. It's still SMB, so there's no splunk in this. Only Event Viewer
-2. Account lockout will apply to AD Domain, but probably not SMB?
-
-
-# I'll do an attack with Splunk involved after this!
-
 
 
 
@@ -67,5 +60,5 @@ PROBLEMS CAME TO MIND DURING THIS
 <img width="387" height="240" alt="Screenshot (40)" src="https://github.com/user-attachments/assets/64ac55d6-4997-45cd-b358-6628b5396301" />
 
 
-
+[Step 2](./Home%20Lab/Project-1/Step2/README.md)
 
