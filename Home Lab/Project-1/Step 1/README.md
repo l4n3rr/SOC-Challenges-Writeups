@@ -1,4 +1,4 @@
-<img width="887" height="921" alt="Screenshot (38)" src="https://github.com/user-attachments/assets/1a3ef4aa-4921-4331-8dc9-a682257c4a8f" />## First attempt failed. Had to figure out why
+## First attempt failed. Had to figure out why
 
 
 
