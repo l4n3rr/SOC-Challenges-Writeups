@@ -4,7 +4,12 @@
 ## Trying again with this live splunk query
 
 <img width="917" height="169" alt="Screenshot (46)" src="https://github.com/user-attachments/assets/95943836-27de-423b-b78e-23c4094a59c5" />
-
-
-![Uploading Screenshot (48).png…]()
 <img width="905" height="192" alt="Screenshot (47)" src="https://github.com/user-attachments/assets/13ac71f1-3212-40c9-9326-87f35af2c516" />
+
+
+## now a side-by-side - live splunk query with 6 events, 5 failures + 1 lockout on Kali Linux
+
+
+# Boom, Remediation Successful!
+
+## Splunk queried for relative time to just look for it again for fun!
