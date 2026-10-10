@@ -60,5 +60,7 @@
 <img width="387" height="240" alt="Screenshot (40)" src="https://github.com/user-attachments/assets/64ac55d6-4997-45cd-b358-6628b5396301" />
 
 
-[Step 2](./Home%20Lab/Project-1/Step2/README.md)
+
+
+# [Step 2](./Home%20Lab/Project-1/Step2/README.md)
 
