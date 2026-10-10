@@ -1,4 +1,4 @@
-## Attack, Defend, Remediate Project
+# Attack, Defend, Remediate Project
 
 0.5. Confirming that Splunk Server & Forwarders are working [View Here](./Step%200.5/README.md)
 1. Brute Force Attack with Kali Linux [View Here](./Step%201/README.md)
@@ -14,4 +14,4 @@
 
 ## Read README2.md [here](./README2.md) for every step taken prior for my Home Lab setup which includes the VMs, Splunk Server, Forwarders, Sysmon, etc
 
-# After finishing, I think a few improvements can be made for next project!
+## After finishing, I think a few improvements can be made for next project!
