@@ -12,4 +12,6 @@
 4. Ubuntu Linux Victim Box
 
 
-## Read README2.md [here](./README2.md) for every step taken of my Home Lab setup which includes the VMs, Splunk Server, Forwarders, Sysmon, etc
+## Read README2.md [here](./README2.md) for every step taken prior for my Home Lab setup which includes the VMs, Splunk Server, Forwarders, Sysmon, etc
+
+# After finishing, I think a few improvements can be made for next project!
