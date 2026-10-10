@@ -40,3 +40,24 @@
 ## Unintentional side quest: Enumerate the DC with netexec, then find it on endpoint logs - COMPLETE
 
 ## I now have to find a way to brute force, and decided to do it with Metasploit because it handles modern SMB protocols!
+
+
+
+
+
+<img width="670" height="154" alt="Screenshot (36)" src="https://github.com/user-attachments/assets/e3e52dea-5ddb-463d-963f-fc4d4efe2936" />
+<img width="684" height="104" alt="Screenshot (37)" src="https://github.com/user-attachments/assets/0f068696-6a0d-4143-901d-21f21f304e24" />
+
+
+
+## I just had to set the RHOSTS (target), SMB User, Password List, StopOnceSucceeded. 
+
+A few problems came to mind during this.
+1. It's still SMB, so there's no splunk in this. Only Event Viewer
+2. Account lockout will apply to AD Domain, but probably not SMB?
+
+
+
+
+
+
