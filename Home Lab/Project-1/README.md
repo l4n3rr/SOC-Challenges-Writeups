@@ -1,6 +1,6 @@
 # Attack, Defend, Remediate, Test Remediation - Project
 
-0.5.[Confirming that Splunk Server & Forwarders are working](./Step%200.5/README.md)
+0.5. [Confirming that Splunk Server & Forwarders are working](./Step%200.5/README.md)
 1. [Brute Force Attack with Kali Linux](./Step%201/README.md)
 2. [Investigate it in Splunk](./Step%202/README.md)
 3. [Implement IT Support / Help Desk Remediation, Test Remediation after](./Step%203/README.md)
@@ -12,7 +12,7 @@
 4. Ubuntu Linux Victim Box
 
 
-## Read README2.md [here](./README2.md) for every step taken prior for my Home Lab setup which includes the VMs, Splunk Server, Forwarders, Sysmon, etc
+## Read [README2.md](./README2.md) for every step taken prior for my Home Lab setup which includes the VMs, Splunk Server, Forwarders, Sysmon, etc
 
 ## Takeaways
 1. There are many options for attackers. Attackers look for open doors and can try any of them to get through. However, there's always a way to monitor and detect those open doors as a defender!
