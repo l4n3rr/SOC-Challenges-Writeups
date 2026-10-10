@@ -12,7 +12,7 @@ I am an aspiring SOC Analyst focused on networking, defensive security, cloud in
 
 Links directly to my step-by-step walkthroughs and methodology for each completed room:
 
-| Platform | Challenge / Room Name | Walkthrough Link |
+### | Platform | Challenge / Room Name | Walkthrough Link |
 
 
 
