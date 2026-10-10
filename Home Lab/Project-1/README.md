@@ -18,10 +18,10 @@
 1. There are many options for attackers. Attackers look for open doors and can try any of them to get through. However, there's always a way to monitor and detect those open doors as a defender!
 2. What cannot be applied to the real world, is having only once machine to monitor, without story context. Too easy.
 3. GPO Management is not too difficult after understanding the hierarchy. I bet it'll be more difficult to find a very specific policy that I may have to configure.
+4. I should remember that this is a friendly local attack, which can serve differently than attacks on the internet, but I'm sure the underlying fundamentals are the same. 
 
 
 
 ## Improvements for Next Project
 1. Story Context
 2. More logs (more noise)
-
