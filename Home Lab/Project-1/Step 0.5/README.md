@@ -47,7 +47,7 @@
 
 ## All I had to do was set the TIME RANGE in SPLUNK within "Real-Time" rather than "Relative"! It was weird that it wasn't showing exact logs in the one minute window, but it started showing all live logs and details of them with the "All-Time" option. That was an OHSHIT moment.
 
-
+# [Step 1](./Home%20Lab/Project-1/Step%201/README.md)
 
 
 
