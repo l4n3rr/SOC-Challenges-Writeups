@@ -8,8 +8,10 @@
 
 
 ## now a side-by-side - live splunk query with 6 events, 5 failures + 1 lockout on Kali Linux
+<img width="1843" height="778" alt="Screenshot (48)" src="https://github.com/user-attachments/assets/9a6d34cf-2d07-481c-9888-28af192ce9b3" />
 
 
 # Boom, Remediation Successful!
 
-## Splunk queried for relative time to just look for it again for fun!
+## Splunk query for relative time to just look for it again and have fun!
+<img width="923" height="598" alt="Screenshot (49)" src="https://github.com/user-attachments/assets/efb993a7-2b29-48e7-8d44-d1726d7142fd" />
