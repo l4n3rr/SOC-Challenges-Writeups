@@ -57,7 +57,7 @@ PROBLEMS CAME TO MIND DURING THIS
 2. Account lockout will apply to AD Domain, but probably not SMB?
 
 
-I'll do an attack with Splunk involved after this!
+# I'll do an attack with Splunk involved after this!
 
 
 
