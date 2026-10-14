@@ -102,6 +102,6 @@ This time, I decided to do a TCP SYN scan AND a UDP scan, specifying ports for K
 
 Learned that ``filtered`` means the windows firewall blocked these connections -  whereas ``open | filtered`` means Nmap is not sure, so it leaves you guessing.
 
-I don't have screenshot, but I used this command: ```Set-NetFireWallProfile -Profile Domain, Public, Private -Enabled false``` to disable the firewall on my Windows10 Workstation to hopefully allow these Nmap connections for the sake of experimentation. 
+I used this command: ```Set-NetFireWallProfile -Profile Domain, Public, Private -Enabled false``` to disable the firewall on my Windows10 Workstation to hopefully allow these Nmap connections for the sake of experimentation. 
 
 
