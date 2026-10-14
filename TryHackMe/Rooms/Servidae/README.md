@@ -15,7 +15,7 @@ Note: this room is about reviewing an incident that happened
 
 
 
-920 logs in 16 minutess
+*920 logs in 16 minutes*
 
 
 
