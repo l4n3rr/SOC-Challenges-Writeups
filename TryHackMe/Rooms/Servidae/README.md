@@ -52,12 +52,22 @@ IP Lookup, country in **Latvia**
 
 
 **Which process name is running the most frequently on the compromised workstation?**
+
+
 Let's just go through the top 10 in the *process.name*
+
+
 <img width="267" height="498" alt="Screenshot (91)" src="https://github.com/user-attachments/assets/c0979ab6-92c9-429e-8990-1f0f77870d39" />
+
+
 
 **curl.exe**
 
+
 During this, I learned that you could filter for the pure existence of a field name? Wow I wish I learned that sooner.
+
+
+
 <img width="1144" height="79" alt="Filter Exists" src="https://github.com/user-attachments/assets/96b9a814-8cb7-4e52-b2be-a9ad9fdd72f0" />
 
 
