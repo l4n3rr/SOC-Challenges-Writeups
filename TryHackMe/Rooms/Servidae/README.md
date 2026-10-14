@@ -157,12 +157,6 @@ can install programs or updates with elevated privileges, and attacker takes adv
 
 
 
-**What is the name of the malicious .msi file?**
-
-
-
-
-**What is the name of the user account that the attacker created to maintain privileged access?**
 
 
 
@@ -170,9 +164,20 @@ can install programs or updates with elevated privileges, and attacker takes adv
 **What is the flag sent via cURL requests to the evilparrot.thm server?**
 
 
+```THM{C4N_Y0U_h34r_m3}```
 
 
-**What is the name of the registry value that the attacker added?**
+<img width="857" height="333" alt="Screenshot (100)" src="https://github.com/user-attachments/assets/b5a03221-1e3e-4903-96cf-7eba6832e0df" />
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -182,15 +187,35 @@ can install programs or updates with elevated privileges, and attacker takes adv
 
 
 
+```**Password123!**```
+
+Pfft, weak password
+
+
+But seriously, after discovery, execution, C2, attacker got a successful login to an internal server WHICH can be discovered with recon scans. It made me think of my home lab using nmap, but you definitely would not want to download nmap on a victim machine or they can be alerted. In this case, the attacker just pinged the network using ICMP.
+
+
+<img width="874" height="551" alt="Screenshot (102)" src="https://github.com/user-attachments/assets/1a760fa5-a556-4819-b964-61e1e98d0a09" />
+
+
+
+
 **What flag was included within the HTTP requests during the attacker’s successful logins?**
 
-
+```**THM{1m_1N_Y0ur_P4YR0LL}**```
 
 
 **What was the session cookie value that the attacker included in the cURL request at 18:58:08.001?**
 
-
+```**dt5qhq423goknmq269rg1tal1a**```
 
 
 **What is the name of the sensitive file that the attacker downloaded?**
+
+
+Once you get in, establish a way to get back in (execution - persistence), have connections back to something you control (c2), escalate privileges to do further execution, persistence and discovery, you can find a source to capture and finish your mission (which you would likely have defined the mission goal before starting this). In this case, it's data exfiltration of sensitive data, which there's multiple ways to go about it, but in this case, it was with *curl*
+
+
+<img width="1881" height="537" alt="Screenshot (105)" src="https://github.com/user-attachments/assets/0c782666-dfc1-44f0-979c-836a88e7e4b1" />
+
 
