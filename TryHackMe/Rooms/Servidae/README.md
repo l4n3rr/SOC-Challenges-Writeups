@@ -64,7 +64,7 @@ Let's just go through the top 10 in the *process.name*
 **curl.exe**
 
 
-During this, I learned that you could filter for the pure existence of a field name? Wow I wish I learned that sooner.
+During this, I learned that you could filter for the pure existence of a field name? Wow. I wish I learned that sooner.
 
 
 
