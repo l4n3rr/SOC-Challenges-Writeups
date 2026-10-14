@@ -1,4 +1,4 @@
-# Recon with Nmap
+<img width="928" height="598" alt="Screenshot (85)" src="https://github.com/user-attachments/assets/665c9203-9627-41a2-ac3e-81bd1d4ccaf0" /># Recon with Nmap
 
 ## Part 1
 I wrote down what I thought was the most important syntax for fundamental Nmap usage.
@@ -58,14 +58,14 @@ Let's ping all hosts to see which are online with ```-sn```
 
 
 
-Let's now do a TCP SYN scan on our Windows10 Workstation!
+Let's now do a TCP SYN scan on our Windows10 Workstation with ```-sS```
 
 
 You'll see that I tried to specify 
 
 ports
 
-set a speed
+speed of recon
 
 spoof my address 
 
@@ -74,6 +74,18 @@ spoof my address
 
 
 <img width="960" height="179" alt="Screenshot (80)" src="https://github.com/user-attachments/assets/b43f291f-030a-4d28-9a5f-49e246bee6a2" />
+
+
+
+
+Let's try the same TCP SYN scan with OS Detection, verbosity, and no specification of ports!
+
+
+A lot of information. I was wondering why, and it's a 50% mix of ```-O``` and ```-v```
+
+
+
+<img width="928" height="598" alt="Screenshot (85)" src="https://github.com/user-attachments/assets/956121b0-06ff-4bcd-aba2-1c2c612fa662" />
 
 
 
