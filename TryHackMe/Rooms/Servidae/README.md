@@ -13,11 +13,32 @@ Note: this room is about reviewing an incident that happened
 9. May 11 2023 @ 18:45:00 - May 11 2023 @ 19:01:00
 
 920 logs in 16 minutes
+
+
+
+
 <img width="1151" height="321" alt="Screenshot (88)" src="https://github.com/user-attachments/assets/f1489d2d-ad9a-48fc-9730-95d06cbc0fba" />
 
 
+
+
 Most of destination IPs are in same network/local host, so IP: 84.237.252.156 - stands out. 
+
+
+
+
 <img width="273" height="525" alt="Screenshot (89)" src="https://github.com/user-attachments/assets/f382ebb0-e01a-4bf0-ba6b-eec730ad6198" />
 
+
+
+
 IP Lookup, country in Latvia
+
+
+
+
 <img width="818" height="321" alt="Screenshot (90)" src="https://github.com/user-attachments/assets/fcf0166b-2199-4d9b-9656-d4491e14d9f4" />
+
+
+
+
