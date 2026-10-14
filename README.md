@@ -21,7 +21,7 @@ Links directly to my step-by-step walkthroughs and methodology for each complete
 
 | TryHackMe | **Servidae** (SOC Level 2 Capstone Challenge) | [View Writeup](./TryHackMe/Rooms/Servidae/README.md) |
 
-| TryHackMe | Placeholder | Placeholder |
+| TryHackMe | **APIWizards Breach** | Placeholder |
 
 
 
