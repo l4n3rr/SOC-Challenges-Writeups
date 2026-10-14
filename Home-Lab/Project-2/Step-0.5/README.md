@@ -1,4 +1,4 @@
-<img width="925" height="487" alt="Screenshot (77)" src="https://github.com/user-attachments/assets/c71baa93-78cd-460a-b974-839ba64e45c0" /><img width="911" height="417" alt="Screenshot (76)" src="https://github.com/user-attachments/assets/de13f7e8-e66c-4098-bb6f-78284632ce60" />Before starting, lets create just for a warmup and for domain expansion!
+Before starting, lets create just for a warmup and for domain expansion!
 
 - Users
 - Organizational Units (OU)
