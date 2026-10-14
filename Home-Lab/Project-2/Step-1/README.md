@@ -3,6 +3,9 @@
 ## Part 1
 I wrote down what I thought was the most important syntax for fundamental Nmap usage.
 
+-sL list targets to scan
+
+
 -sn -> Ping Scan
 
 
@@ -31,5 +34,16 @@ I wrote down what I thought was the most important syntax for fundamental Nmap u
 
 
 -p -> Specify Port
+
+
+## Part 2
+Ensure that my target range is correct
+
+
+<img width="888" height="700" alt="Screenshot (78)" src="https://github.com/user-attachments/assets/e876bd9f-517a-4849-b3ff-e2e8db42733d" />
+
+
+
+
 
 
