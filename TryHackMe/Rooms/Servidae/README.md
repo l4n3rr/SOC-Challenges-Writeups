@@ -28,7 +28,7 @@ Note: this room is about reviewing an incident that happened
 
 
 
-Most of destination IPs are in same network/local host, so IP: **84.237.252.156** - stands out. 
+Most of destination IPs are in same network/local host, so IP: ```**84.237.252.156**``` - stands out. 
 
 
 
