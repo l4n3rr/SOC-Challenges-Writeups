@@ -5,7 +5,7 @@
 1. [Recon and Enumerate AD Domain](./Step-1/README.md)
 2. [Compromise Basic Domain User](./Step-2/README.md)
 3. [Lateral Movement to DC](./Step-3/README.md)
-4. [Take Advantage](./Step-4/README.md)
+4. [Take Advantage](./Step-4/README.md) (fun and creative step)
 
 ## 4 VMs
 1. Kali Linux Attack Box
