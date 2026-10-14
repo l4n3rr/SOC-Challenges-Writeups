@@ -1,4 +1,4 @@
-<img width="928" height="598" alt="Screenshot (85)" src="https://github.com/user-attachments/assets/665c9203-9627-41a2-ac3e-81bd1d4ccaf0" /># Recon with Nmap
+# Recon with Nmap
 
 ## Part 1
 I wrote down what I thought was the most important syntax for fundamental Nmap usage.
@@ -81,7 +81,7 @@ spoof my address
 Let's try the same TCP SYN scan with OS Detection, verbosity, and no specification of ports!
 
 
-A lot of information. I was wondering why, and it's a 50% mix of ```-O``` and ```-v```
+A lot of information. I was wondering why, and it's a 50% mix of ```-O``` and ```-v``` I believe
 
 
 
@@ -90,5 +90,18 @@ A lot of information. I was wondering why, and it's a 50% mix of ```-O``` and ``
 
 
 
+This time, I decided to do a TCP SYN scan AND a UDP scan, specifying ports for Kerberos, LDAP(S), wsman, SMB and give reason for the port state.
+``-sU -sS --reason -p``
+
+
+
+
+
+<img width="568" height="527" alt="Screenshot (87)" src="https://github.com/user-attachments/assets/8d57980a-a4df-489b-806a-073f232b0a9e" />
+
+
+Learned that ``filtered`` means the windows firewall blocked these connections -  whereas ``open | filtered`` means Nmap is not sure, so it leaves you guessing.
+
+I don't have screenshot, but I used this command: ```Set-NetFireWallProfile -Profile Domain, Public, Private -Enabled false``` to disable the firewall on my Windows10 Workstation to hopefully allow these Nmap connections for the sake of experimentation. 
 
 
