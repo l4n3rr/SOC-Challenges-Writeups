@@ -226,3 +226,7 @@ Once you get in, establish a way to get back in (execution - persistence), have 
 
 This doesn't actually show the exfiltration process, but that's the follow-up assumption after downloading such a sensitive file. Because the C2 beacon is already there, he can data exfil through HTTP(S) and or DNS
 
+
+## Takeaways
+
+Cool walkthrough! However, I thought I'd be on my own for this. THM guided me quite a bit here, but a very good eye opener to how an entire kill-chain (cyber / unified) attack can look like
