@@ -90,7 +90,7 @@ A lot of information. I was wondering why, and it's a 50% mix of ```-O``` and ``
 
 
 
-This time, I decided to do a TCP SYN scan AND a UDP scan, specifying ports for Kerberos, LDAP(S), wsman, SMB and give reason for the port state.
+This time, I decided to do a TCP SYN scan AND a UDP scan, specifying ports for Kerberos, LDAP(S), WinRM, SMB and give reason for the port state.
 ``-sU -sS --reason -p``
 
 
