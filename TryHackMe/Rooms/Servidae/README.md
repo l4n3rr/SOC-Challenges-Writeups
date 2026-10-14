@@ -213,9 +213,16 @@ But seriously, after discovery, execution, C2, attacker got a successful login t
 **What is the name of the sensitive file that the attacker downloaded?**
 
 
+
+
 Once you get in, establish a way to get back in (execution - persistence), have connections back to something you control (c2), escalate privileges to do further execution, persistence and discovery, you can find a source to capture and finish your mission (which you would likely have defined the mission goal before starting this). In this case, it's data exfiltration of sensitive data, which there's multiple ways to go about it, but in this case, it was with *curl*
+
+```**bank-details.csv**```
 
 
 <img width="1881" height="537" alt="Screenshot (105)" src="https://github.com/user-attachments/assets/0c782666-dfc1-44f0-979c-836a88e7e4b1" />
 
+
+
+This doesn't actually show the exfiltration process, but that's the follow-up assumption after downloading such a sensitive file. Because the C2 beacon is already there, he can data exfil through HTTP(S) and or DNS
 
