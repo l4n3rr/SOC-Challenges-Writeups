@@ -99,6 +99,13 @@ Place the time in ascending order, and add the field name associated
 
 
 
+Here, we learn that bill downloaded a file extension-spoofed powershell script - essentially a RAT
+
+<img width="535" height="318" alt="Screenshot (94)" src="https://github.com/user-attachments/assets/ee1e031c-423c-4798-910d-fa757aa5720f" />
+
+
+
+
 
 **What was the parent process name of the process that spawned powershell.exe?**
 
@@ -132,10 +139,12 @@ Since there's domain and server involved, it can be assumed that either HTTP req
 The question made it easy to search for this, but also there's not many logs to go through.
 
 
-The key is **reg query** that can be recycled within queries to search for registry changes
+The key is **reg query** that can be recycled within queries to search for registry changes.
 
 
 ```**HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Windows\Installer**```
+
+```AlwaysInstallElevated``` means that
 
 <img width="841" height="624" alt="Screenshot (98)" src="https://github.com/user-attachments/assets/b106e5f5-9f4a-4d59-b0c6-28e160b02077" />
 
