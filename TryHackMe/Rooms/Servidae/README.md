@@ -77,7 +77,25 @@ During this, I learned that you could filter for the pure existence of a field n
 
 
 
+
+Ensure its the correct user. From here, I can guess that SYSTEM was used in some way (probably maliciously)
+
+
+
+
+<img width="850" height="442" alt="Screenshot (93)" src="https://github.com/user-attachments/assets/452e556c-989e-468c-b0cc-781eba594f5f" />
+
+
+
+
 **What was the process ID (PID) of the potentially malicious PowerShell script?**
+
+
+Place the time in ascending order, and add the field name associated
+
+
+
+<img width="1920" height="1080" alt="Screenshot (94)" src="https://github.com/user-attachments/assets/49b98681-0c26-4353-9f97-d873c6f5dae9" />
 
 
 
