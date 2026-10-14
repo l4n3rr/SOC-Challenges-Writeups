@@ -102,6 +102,15 @@ Place the time in ascending order, and add the field name associated
 
 **What was the parent process name of the process that spawned powershell.exe?**
 
+Simply add another field name
+
+```**explorer.exe**```
+
+<img width="850" height="333" alt="Screenshot (96)" src="https://github.com/user-attachments/assets/6459ab4c-f71a-4711-97f5-56d6314d8089" />
+
+
+
+
 
 
 
