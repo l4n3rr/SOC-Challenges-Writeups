@@ -41,7 +41,7 @@ Most of destination IPs are in same network/local host, so IP: ```**84.237.252.1
 
 
 
-IP Lookup, country in **Latvia**
+IP Lookup, country in ```**Latvia**```
 
 
 
@@ -61,7 +61,7 @@ Let's just go through the top 10 in the *process.name*
 
 
 
-**curl.exe**
+```**curl.exe**```
 
 
 During this, I learned that you could filter for the pure existence of a field name? Wow. I wish I learned that sooner.
