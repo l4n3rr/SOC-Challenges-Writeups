@@ -13,8 +13,6 @@ Note: this room is about reviewing an incident that happened
 9. May 11 2023 @ 18:45:00 - May 11 2023 @ 19:01:00
 
 
-### Look at the Top values under the destination.ip field. Which IP address stands out?
-
 
 
 920 logs in 16 minutes
@@ -24,6 +22,9 @@ Note: this room is about reviewing an incident that happened
 
 <img width="1151" height="321" alt="Screenshot (88)" src="https://github.com/user-attachments/assets/f1489d2d-ad9a-48fc-9730-95d06cbc0fba" />
 
+
+
+### Look at the Top values under the destination.ip field. Which IP address stands out?
 
 
 
