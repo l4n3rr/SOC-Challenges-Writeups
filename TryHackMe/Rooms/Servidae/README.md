@@ -36,6 +36,9 @@ Most of destination IPs are in same network/local host, so IP: 84.237.252.156 - 
 <img width="273" height="525" alt="Screenshot (89)" src="https://github.com/user-attachments/assets/f382ebb0-e01a-4bf0-ba6b-eec730ad6198" />
 
 
+### Use an IP address lookup tool (such as iplocation.io). What country does this IP address originate from?
+
+
 
 
 IP Lookup, country in Latvia
