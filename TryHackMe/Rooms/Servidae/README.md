@@ -117,10 +117,27 @@ Simply add another field name
 **What is the domain name of the attacker’s server hosting the winPEAS executable?**
 
 
+Since there's domain and server involved, it can be assumed that either HTTP requests or Invoke-WebRequest is occurring. 
+
+
+```**evilparrot.thm**```
+
+
+<img width="844" height="421" alt="Screenshot (97)" src="https://github.com/user-attachments/assets/262e5c75-72b6-47b2-a64f-9a33e7b3ecf4" />
+
 
 
 **What is the full path of the HKEY_LOCAL_MACHINE registry entry that was queried?**
 
+The question made it easy to search for this, but also there's not many logs to go through.
+
+
+The key is **reg query** that can be recycled within queries to search for registry changes
+
+
+```**HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Windows\Installer**```
+
+<img width="841" height="624" alt="Screenshot (98)" src="https://github.com/user-attachments/assets/b106e5f5-9f4a-4d59-b0c6-28e160b02077" />
 
 
 
