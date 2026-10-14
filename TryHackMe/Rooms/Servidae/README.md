@@ -129,6 +129,8 @@ Since there's domain and server involved, it can be assumed that either HTTP req
 
 ```**evilparrot.thm**```
 
+This executable is from that web server, which reveals possible privilege escalation paths
+
 
 <img width="844" height="421" alt="Screenshot (97)" src="https://github.com/user-attachments/assets/262e5c75-72b6-47b2-a64f-9a33e7b3ecf4" />
 
@@ -144,7 +146,12 @@ The key is **reg query** that can be recycled within queries to search for regis
 
 ```**HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Windows\Installer**```
 
-```AlwaysInstallElevated``` means that
+The executable found this privilege escalation path:
+```AlwaysInstallElevated``` 
+
+
+can install programs or updates with elevated privileges, and attacker takes advantage of that with MSI
+
 
 <img width="841" height="624" alt="Screenshot (98)" src="https://github.com/user-attachments/assets/b106e5f5-9f4a-4d59-b0c6-28e160b02077" />
 
