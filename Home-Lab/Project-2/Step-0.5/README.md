@@ -38,7 +38,7 @@ I want Bob to be able to change passwords of all departments, so let's delegate 
 
 
 
-## That's about it! It was a fun mini project of just messing around with AD, and wanted to expand it so ```BloodHound``` would have more content
+## That's about it! It was a fun mini project of just messing around with AD, and wanted to expand it so ```BloodHound``` would have more content. Let's get to the real stuff.
 
 
 
