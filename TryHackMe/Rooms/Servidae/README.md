@@ -24,7 +24,7 @@ Note: this room is about reviewing an incident that happened
 
 
 
-### Look at the Top values under the destination.ip field. Which IP address stands out?
+**Look at the Top values under the destination.ip field. Which IP address stands out?**
 
 
 
@@ -36,7 +36,7 @@ Most of destination IPs are in same network/local host, so IP: 84.237.252.156 - 
 <img width="273" height="525" alt="Screenshot (89)" src="https://github.com/user-attachments/assets/f382ebb0-e01a-4bf0-ba6b-eec730ad6198" />
 
 
-### Use an IP address lookup tool (such as iplocation.io). What country does this IP address originate from?
+**Use an IP address lookup tool (such as iplocation.io). What country does this IP address originate from?**
 
 
 
@@ -50,4 +50,66 @@ IP Lookup, country in Latvia
 
 
 
+
+**Which process name is running the most frequently on the compromised workstation?**
+
+
+
+
+**What was the process ID (PID) of the potentially malicious PowerShell script?**
+
+
+
+
+**What was the parent process name of the process that spawned powershell.exe?**
+
+
+
+
+**What is the domain name of the attacker’s server hosting the winPEAS executable?**
+
+
+
+
+**What is the full path of the HKEY_LOCAL_MACHINE registry entry that was queried?**
+
+
+
+
+**What is the name of the malicious .msi file?**
+
+
+
+
+**What is the name of the user account that the attacker created to maintain privileged access?**
+
+
+
+
+**What is the flag sent via cURL requests to the evilparrot.thm server?**
+
+
+
+
+**What is the name of the registry value that the attacker added?**
+
+
+
+
+**What was the password that the attacker used to access Bill’s user account on the internal payroll website?**
+
+
+
+
+**What flag was included within the HTTP requests during the attacker’s successful logins?**
+
+
+
+
+**What was the session cookie value that the attacker included in the cURL request at 18:58:08.001?**
+
+
+
+
+**What is the name of the sensitive file that the attacker downloaded?**
 
