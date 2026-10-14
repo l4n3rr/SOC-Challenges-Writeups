@@ -68,7 +68,10 @@ During this, I learned that you could filter for the pure existence of a field n
 
 
 
-*Filter for field present* and along with that, I might've found more by accident (wrote it down, but won't dig right now til I get there)
+*Filter for field present* - along with that, I might've found more by accident (wrote it down, but won't dig right now til I get there)
+
+
+
 <img width="840" height="537" alt="Screenshot (92)" src="https://github.com/user-attachments/assets/b43a4933-1934-4d34-9997-b6f71fb83222" />
 
 
