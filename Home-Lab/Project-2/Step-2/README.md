@@ -16,14 +16,16 @@ I ran a script ```smb2-security-mode``` on my Win-10 to reveal that SMB message 
 I went down this rabbit hole path to see what I could do with that possible vulnerability. I used ``Responder`` to capture network authentication traffic, and this specifically listens for any failed name resolutions on Win-10 as my target!
 
 
-Screenshot 111
+<img width="777" height="855" alt="Screenshot (111)" src="https://github.com/user-attachments/assets/186e64fd-5380-4611-b9d7-2a32483290b9" />
+
 
 
 I proceed to mistype name resolutions to see output.
 
 
 
-Screenshot 112
+<img width="1534" height="727" alt="Screenshot (112)" src="https://github.com/user-attachments/assets/d5630b7b-068f-4098-944e-1058637ad5ff" />
+
 
 
 
@@ -39,7 +41,8 @@ I didn't see any valuable information until I attempted the mistyped name resolu
 
 
 
-Screenshot 113
+<img width="1567" height="478" alt="Screenshot (113)" src="https://github.com/user-attachments/assets/5bba26af-1e0b-438c-8414-44ff332a594e" />
+
 
 
 
@@ -49,7 +52,8 @@ I'll now use ```MultiRelay.py``` (Impacket) to feed authentication live to anoth
 
 
 
-Screenshot 114
+<img width="471" height="488" alt="Screenshot (114)" src="https://github.com/user-attachments/assets/eeb63912-d6b0-4122-aaf2-ede4c326c77a" />
+
 
 
 
@@ -57,7 +61,7 @@ Locate ```ntlmrelayx.py``` (script for relaying)
 
 
 
-Screenshot 115
+<img width="799" height="366" alt="Screenshot (115)" src="https://github.com/user-attachments/assets/914241a9-ae2b-4380-bf99-726a25aabb25" />
 
 
 
@@ -71,7 +75,7 @@ I believe if this works, it instantly creates a backdoor domain user
 
 
 
-Screenshot 116
+<img width="797" height="482" alt="Screenshot (116)" src="https://github.com/user-attachments/assets/3ec9fff7-9d03-4921-9718-c0fd0ab1add5" />
 
 
 
@@ -80,7 +84,7 @@ Start Responder and ensure that SMB/HTTP server is off
 
 
 
-Screenshot 117
+<img width="779" height="708" alt="Screenshot (117)" src="https://github.com/user-attachments/assets/29d9ca40-9e56-4335-8c41-3905ae28cecb" />
 
 
 
@@ -89,7 +93,8 @@ Mistype path in Win-10 and see the output of both terminals
 
 
 
-Screenshot 118
+<img width="1615" height="261" alt="Screenshot (118)" src="https://github.com/user-attachments/assets/1e34e4df-17ee-4223-8468-78aa71e22ce8" />
+
 
 
 
@@ -97,7 +102,7 @@ Failed... it worked better when I attempted again with -smb2support, still faile
 
 
 
-Screenshot 119
+<img width="788" height="216" alt="Screenshot (119)" src="https://github.com/user-attachments/assets/d130790b-0f99-436f-a046-9a4de66b1f76" />
 
 
 
