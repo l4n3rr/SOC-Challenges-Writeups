@@ -117,8 +117,7 @@ Failed... it worked better when I attempted again with -smb2support, still faile
 
 ## What I did in a few words is --- I captured the handshake of Win10 Machine, then relayed that information back to Win10 *when it should've been toward another machine*
 
-
-
+## Let's move on to cracking the hash before moving to BloodHound
 
 
 
