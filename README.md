@@ -38,7 +38,7 @@ Links directly to my step-by-step walkthroughs and methodology for each complete
 
 
 
-### Notes about me
+### Essential Notes For Me
 
 * Always start with the context
 * Investigative mindset - Start from the beginning, work your way to the end. In between, ```what would the attacker do now``` and ```what phase is the attacker in right now```
