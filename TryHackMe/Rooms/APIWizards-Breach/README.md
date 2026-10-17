@@ -108,6 +108,76 @@ In the same screenshot above contains the association with the rooter2 malware.
 
 ## Futher Actions
 
+Which two system files were infected to achieve cron persistence?
+
+
+Where on Linux can I see cronjobs? - skill-gap keeps revealing itself. /etc/crontab
+
+
+<img width="1030" height="380" alt="Screenshot 2026-10-17 094058" src="https://github.com/user-attachments/assets/5589ca9b-5f40-4c9d-a74d-43f45c078139" />
+
+
+No idea how echo is revealing this valuable information and also no idea how it's infecting /etc/environment, BUT I AM NOW LEARNING THAT this is a bind shell with persistence. Theses listen for connections as C2 channel. 
+
+```/etc/crontab```
+```/etc/environment```
+
+
+
+<img width="1017" height="118" alt="Screenshot 2026-10-17 094310" src="https://github.com/user-attachments/assets/f55fc9d8-74ca-463b-8ccb-4821f81053a5" />
+
+
+
+
+
+What is the C2 server IP address of the malicious actor?
+
+```5.230.66.147```
+
+What port is the backdoored bind bash shell listening at?
+
+
+I thought it was 1337 next to that IP address, but now I had to think beyond my knowledge of OS. How can I locate listening ports? ```ss``` (socket statistics) is the same as ```net``` (network) on Windows. ```ss -tulnp```. I'd like to break this down.
+
+1. -t shows TCP sockets
+2. -u shows UDP sockets
+3. -l shows listening sockets only
+4. -n shows numeric addresses
+5. -p shows process using socket
+
+Digging through the information shows ```nc```, which, if you're looking through *listening connections*, it's most likely Netcat.
+
+Answer is ```3587```
+
+<img width="1020" height="425" alt="Screenshot 2026-10-17 094941" src="https://github.com/user-attachments/assets/c054cbbb-111c-4971-93f3-c659791a73cf" />
+
+
+
+
+How does the bind shell persist across reboots?
+
+
+I had to look up (knowledge skill-gap), what allows shells to persist on reboots? The answer gave me ```systemdservice```
+
+
+
+What is the absolute path of the malicious service?
+
+
+Based on logic + previous information, I tried to connect it together.
+```/etc/systemd/system/socket.service```
+
+
+
+<img width="876" height="458" alt="Screenshot 2026-10-17 095751" src="https://github.com/user-attachments/assets/5a86bcce-3565-4316-9e07-70ca6daf4a51" />
+
+
+I made sure by looking through ```socket.service``` and the answer was clear when I saw */bin/bash* + *nc*
+
+
+<img width="507" height="229" alt="Screenshot 2026-10-17 095759" src="https://github.com/user-attachments/assets/f8bf2c22-eee4-48b9-8d21-81c431824845" />
+
+
 
 
 
