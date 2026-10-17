@@ -291,6 +291,25 @@ This one required a keen eye and experience to spot the anomaly. I had no idea e
 
 Start with ```ls -la```
 
+This seemed to give me nothing. Let's try bash history
+
+<img width="1042" height="59" alt="Screenshot 2026-10-17 184657" src="https://github.com/user-attachments/assets/2de28f46-80d6-4195-b997-548f50ef85a5" />
+
+
+Here looks like useful information
+
+<img width="744" height="227" alt="Screenshot 2026-10-17 184753" src="https://github.com/user-attachments/assets/f32e78d3-2f26-45d6-a6cc-9cee4bd94829" />
+
+Oh I'm dumb. I tried decoding the dump, and obviously it has dump in the name, but I still decided to look elsewhere. Just the bash history, and the surrounding events made it clear that this was gathered victim information!
+
+```/root/.dump.json/```
+
+
+
+
+
+
+
 
 **According to the dropped dump, what is the server’s kernel version?**
 
