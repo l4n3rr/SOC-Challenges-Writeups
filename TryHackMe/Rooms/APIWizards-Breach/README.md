@@ -287,6 +287,26 @@ This one required a keen eye and experience to spot the anomaly. I had no idea e
 ## Final Target
 
 
+**What file was dropped which contained gathered victim information?**
+
+Start with ```ls -la```
+
+
+**According to the dropped dump, what is the server’s kernel version?**
+
+
+**Which active internal IPs were found by the “rooter2” network scan?**
+
+
+**How did the hacker find an exposed HTTP index on another internal IP?**
+
+
+**What command was used to exfiltrate the CDE database from the internal IP?**
+
+
+**What is the most secret and precious string stored in the exfiltrated database?**
+
+
 
 
 
