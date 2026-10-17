@@ -6,7 +6,7 @@ Stange Web Requests, Nginx logs, unexpected system file changes, data on telegra
 
 
 
-Which programming language is a web application written in?
+**Which programming language is a web application written in?**
 
 Clearly shows ```Python```
 
@@ -15,7 +15,7 @@ Clearly shows ```Python```
 
 
 
-What is the IP address that attacked the web server?
+**What is the IP address that attacked the web server?**
 
 Let's move to nginx logs
 
@@ -33,7 +33,7 @@ Let's move to nginx logs
 
 
 
-Which vulnerability was found and exploited in the API service?
+**Which vulnerability was found and exploited in the API service?**
 
 During the search of this, I ended up in the API's cache and what I wrote was no longer legible, so I had to reboot 
 
@@ -54,7 +54,7 @@ The logs weren't telling me much until I realized that there are HTTP response c
 
 
 
-Which file contained the credentials used to privesc to root?
+**Which file contained the credentials used to privesc to root?**
 
 
 I URL decoded and thought it was this
@@ -74,7 +74,7 @@ Was not in the logs, it was in the apiservice directory in the beginning of this
 
 
 
-What file did the hacker drop and execute to persist on the server?
+**What file did the hacker drop and execute to persist on the server?**
 
 
 Once again, I thought it was what I decoded, but I should be following logic. That file above leads to root now, so I can check the bash history on root
@@ -93,7 +93,7 @@ The **curl** and **wget** stand out. It made sense that it was the /tmp/ with th
 
 
 
-Which service was used to host the “rooter2” malware?
+**Which service was used to host the “rooter2” malware?**
 
 
 In the same screenshot above contains the association with the rooter2 malware.
@@ -108,7 +108,7 @@ In the same screenshot above contains the association with the rooter2 malware.
 
 ## Futher Actions
 
-Which two system files were infected to achieve cron persistence?
+**Which two system files were infected to achieve cron persistence?**
 
 
 Where on Linux can I see cronjobs? - skill-gap keeps revealing itself. /etc/crontab
@@ -130,11 +130,11 @@ No idea how echo is revealing this valuable information and also no idea how it'
 
 
 
-What is the C2 server IP address of the malicious actor?
+**What is the C2 server IP address of the malicious actor?**
 
 ```5.230.66.147```
 
-What port is the backdoored bind bash shell listening at?
+**What port is the backdoored bind bash shell listening at?**
 
 
 I thought it was 1337 next to that IP address, but now I had to think beyond my knowledge of OS. How can I locate listening ports? ```ss``` (socket statistics) is the same as ```net``` (network) on Windows. ```ss -tulnp```. I'd like to break this down.
@@ -154,14 +154,14 @@ Answer is ```3587```
 
 
 
-How does the bind shell persist across reboots?
+**How does the bind shell persist across reboots?**
 
 
 I had to look up (knowledge skill-gap), what allows shells to persist on reboots? The answer gave me ```systemdservice```
 
 
 
-What is the absolute path of the malicious service?
+**What is the absolute path of the malicious service?**
 
 
 Based on logic + previous information, I tried to connect it together.
@@ -181,7 +181,7 @@ I made sure by looking through ```socket.service``` and the answer was clear whe
 ## Even More Persistence
 
 
-Which port is blocked on the victim's firewall?
+**Which port is blocked on the victim's firewall?**
 
 I knew this required a certain command, but I didn't know what.
 
@@ -197,7 +197,7 @@ I knew this required a certain command, but I didn't know what.
 
 
 
-How do the firewall rules persist across reboots?
+**How do the firewall rules persist across reboots?**
 
 
 another command / location I didn't know how to get to.
@@ -210,7 +210,7 @@ I actually saw this before, but I didn't understand how to read it.
 
 
 
-How is the backdoored local Linux user named?
+**How is the backdoored local Linux user named?**
 
 
 ```grep```ing /bin/bash in the ```/etc/passwd/``` location helped me find this
@@ -223,7 +223,7 @@ How is the backdoored local Linux user named?
 
 
 
-Which privileged group was assigned to the user?
+**Which privileged group was assigned to the user?**
 
 
 needed to be a command that I didn't know about
@@ -236,7 +236,7 @@ needed to be a command that I didn't know about
 
 
 
-What is the strange word on one of the backdoored SSH keys?
+**What is the strange word on one of the backdoored SSH keys?**
 
 
 I knew it was /.ssh/authorized_keys, however, my VM glitched so a restart had me stuck. It had to be on root to find those keys, which should be known by default. Silly me. Still, I struggled to find it, but narrowed it down to ```ntsvc```.
@@ -252,7 +252,7 @@ I knew it was /.ssh/authorized_keys, however, my VM glitched so a restart had me
 
 
 
-Can you spot and name one more popular persistence method? Not a MITRE technique name.
+**Can you spot and name one more popular persistence method? Not a MITRE technique name.**
 
 
 was never gonna get this one - ```SUID Binaries```
@@ -260,7 +260,7 @@ was never gonna get this one - ```SUID Binaries```
 to find them, you'd do this command: ```find / -perm -u=s -type f 2>/dev/null```
 
 
-What are the original and the backdoored binaries from question 6?
+**What are the original and the backdoored binaries from question 6?**
 
 
 <img width="623" height="811" alt="Screenshot 2026-10-17 182658" src="https://github.com/user-attachments/assets/6f8db6a6-7bf2-42f1-ab17-4b48ddec60b9" />
@@ -275,7 +275,7 @@ This one required a keen eye and experience to spot the anomaly. I had no idea e
 
 
 
-What technique was used to hide the backdoor creation date?
+**What technique was used to hide the backdoor creation date?**
 
 
 ```Timestomping```, simple search. I didn't know how to search for creation date though.
