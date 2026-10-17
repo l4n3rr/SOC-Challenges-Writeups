@@ -293,12 +293,19 @@ Start with ```ls -la```
 
 This seemed to give me nothing. Let's try bash history
 
+
+
 <img width="1042" height="59" alt="Screenshot 2026-10-17 184657" src="https://github.com/user-attachments/assets/2de28f46-80d6-4195-b997-548f50ef85a5" />
+
 
 
 Here looks like useful information
 
+
+
 <img width="744" height="227" alt="Screenshot 2026-10-17 184753" src="https://github.com/user-attachments/assets/f32e78d3-2f26-45d6-a6cc-9cee4bd94829" />
+
+
 
 Oh I'm dumb. I tried decoding the dump, and obviously it has dump in the name, but I still decided to look elsewhere. Just the bash history, and the surrounding events made it clear that this was gathered victim information!
 
@@ -314,16 +321,57 @@ Oh I'm dumb. I tried decoding the dump, and obviously it has dump in the name, b
 **According to the dropped dump, what is the server’s kernel version?**
 
 
+
+I tried to decode the .dump.json but it didn't work? Must've done something wrong, so I tried again.
+
+
+<img width="943" height="564" alt="Screenshot 2026-10-17 185208" src="https://github.com/user-attachments/assets/15c5e49f-f27d-4c5d-9f89-f024c3e9e153" />
+
+
+```5.15.0-78-generic```
+
+
+
 **Which active internal IPs were found by the “rooter2” network scan?**
+
+
+I guess that was the rooter2 network scan in the CyberChef output
+
+
+```192.168.0.21, 192.168.0.22```
+
 
 
 **How did the hacker find an exposed HTTP index on another internal IP?**
 
 
+Let's look again at Bash History. Interesting. I believe it's trying to find a location for this dump, and found an HTTP index here with Netcat ```nc```
+
+```nc -zv 192.168.0.22 1024-10000 2>&1 | grep -v failed```
+
+
+<img width="741" height="95" alt="Screenshot 2026-10-17 185751" src="https://github.com/user-attachments/assets/83465443-1a88-4ad0-94d9-908d96b95d60" />
+
+
+
+
+
 **What command was used to exfiltrate the CDE database from the internal IP?**
 
 
+In the same screenshot, it's pretty clear with the .csv
+
+```wget 192.168.0.22:8080/cde-backup.csv```
+
+
+
 **What is the most secret and precious string stored in the exfiltrated database?**
+
+
+Flag time!
+
+
+
 
 
 
