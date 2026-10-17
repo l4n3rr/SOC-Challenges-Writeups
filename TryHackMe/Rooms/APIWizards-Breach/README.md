@@ -368,7 +368,31 @@ In the same screenshot, it's pretty clear with the .csv
 **What is the most secret and precious string stored in the exfiltrated database?**
 
 
-Flag time!
+Flag time! It looks like this attacker is trying to hide its tracks, renaming the file and looks like its trying to clear logs. Lets search for this.
+
+
+<img width="294" height="230" alt="Screenshot 2026-10-17 190127" src="https://github.com/user-attachments/assets/0b8e1394-56d1-4d62-80d0-5e4efc3ef6ad" />
+
+
+
+Omg I think I found it, and it was in front of me the whole time.
+
+<img width="703" height="802" alt="Screenshot 2026-10-17 190746" src="https://github.com/user-attachments/assets/2b96b3c8-f3d9-43e8-8ef5-cb5d8d6d4f6e" />
+
+BOOM
+
+
+<img width="607" height="61" alt="Screenshot 2026-10-17 190849" src="https://github.com/user-attachments/assets/05d6e1e9-b7b6-4826-ab81-eaf813db0da9" />
+
+
+
+
+
+
+## This room was quite tough for 2 reasons. 1. OS knowledge skill-gap. I essentially just had to keep searching what commands I needed to use to end up in the right place. I prefer not searching things up, but if knowledge is the only way to progress, there has to be some cheating involved. Not worth the time-waste in my opinion just for that - getting stuck because you don't know what command to use. 2. This room was weird when it came to finding stuff chronologically. On paper, on a kill-chain, it made sense, but I was finding stuff ahead of time and feeling like I missed important information that was right in front of me the entire time. Maybe that's how the real world is. Fire room.
+
+
+
 
 
 
