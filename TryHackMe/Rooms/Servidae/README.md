@@ -1,3 +1,6 @@
+# SOC LVL2 Capstone Challenge Room
+
+
 ## Context Info For Starting Investigation on Splunk
 Note: this room is about reviewing an incident that happened
 
