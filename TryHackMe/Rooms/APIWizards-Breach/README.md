@@ -63,14 +63,51 @@ I URL decoded and thought it was this
 <img width="926" height="137" alt="Screenshot 2026-10-16 214801" src="https://github.com/user-attachments/assets/18c8246f-7dd7-420b-aecb-4ea0662ce586" />
 
 
+Was not in the logs, it was in the apiservice directory in the beginning of this. Can't believe this flew over my head because I saw the credentials there.
+
+```/home/dev/apiservice/src/config.py```
+
+
+<img width="565" height="149" alt="Screenshot 2026-10-16 215459" src="https://github.com/user-attachments/assets/c323a2d6-fe48-4b93-a836-438e4facb3b8" />
+
+
 
 
 
 What file did the hacker drop and execute to persist on the server?
 
 
+Once again, I thought it was what I decoded, but I should be following logic. That file above leads to root now, so I can check the bash history on root
+
+
+
+<img width="702" height="288" alt="Screenshot 2026-10-16 215809" src="https://github.com/user-attachments/assets/6f167ea1-e69e-410c-885b-9e502719764e" />
+
+
+The **curl** and **wget** stand out. It made sense that it was the /tmp/ with the rooter2.
+```/tmp/rooter2```
+
+<img width="845" height="153" alt="Screenshot 2026-10-16 215838" src="https://github.com/user-attachments/assets/2bb40c0f-e63d-49e9-8bf0-805096220a32" />
+
+
+
+
 
 Which service was used to host the “rooter2” malware?
+
+
+In the same screenshot above contains the association with the rooter2 malware.
+
+```transfer.sh```
+
+
+*Note for me:* this is actually quite tough for me - this is an OS knowledge gap of just not knowing where to go -significant difference from windows - significant learning
+
+
+
+
+## Futher Actions
+
 
 
 
