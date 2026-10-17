@@ -178,6 +178,16 @@ I made sure by looking through ```socket.service``` and the answer was clear whe
 <img width="507" height="229" alt="Screenshot 2026-10-17 095759" src="https://github.com/user-attachments/assets/f8bf2c22-eee4-48b9-8d21-81c431824845" />
 
 
+## Even More Persistence
+
+
+
+
+
+
+## Final Target
+
+
 
 
 
