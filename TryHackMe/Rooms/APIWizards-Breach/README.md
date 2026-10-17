@@ -181,6 +181,105 @@ I made sure by looking through ```socket.service``` and the answer was clear whe
 ## Even More Persistence
 
 
+Which port is blocked on the victim's firewall?
+
+I knew this required a certain command, but I didn't know what.
+
+```iptables``` = Linux Firewall
+
+```iptables -L``` = list all rules configured in iptables
+
+```3578```
+
+
+<img width="772" height="259" alt="Screenshot 2026-10-17 181011" src="https://github.com/user-attachments/assets/54fc0da4-607f-447b-9936-32968528d496" />
+
+
+
+
+How do the firewall rules persist across reboots?
+
+
+another command / location I didn't know how to get to.
+
+```/root/.bashrc```
+I actually saw this before, but I didn't understand how to read it.
+
+<img width="627" height="125" alt="Screenshot 2026-10-17 181236" src="https://github.com/user-attachments/assets/9cd8a839-d271-4469-9828-88fd7becbdec" />
+
+
+
+
+How is the backdoored local Linux user named?
+
+
+```grep```ing /bin/bash in the ```/etc/passwd/``` location helped me find this
+
+```support```
+
+<img width="568" height="115" alt="Screenshot 2026-10-17 181545" src="https://github.com/user-attachments/assets/dbabe49e-16f8-4ebf-8e8f-57254b7da096" />
+
+
+
+
+
+Which privileged group was assigned to the user?
+
+
+needed to be a command that I didn't know about
+
+```groups 'user'```
+```support```
+
+<img width="422" height="35" alt="Screenshot 2026-10-17 181811" src="https://github.com/user-attachments/assets/4ac2d181-9489-429f-b322-fb4ad86757bb" />
+
+
+
+
+What is the strange word on one of the backdoored SSH keys?
+
+
+I knew it was /.ssh/authorized_keys, however, my VM glitched so a restart had me stuck. It had to be on root to find those keys, which should be known by default. Silly me. Still, I struggled to find it, but narrowed it down to ```ntsvc```.
+
+<img width="1062" height="363" alt="Screenshot 2026-10-17 182011" src="https://github.com/user-attachments/assets/af97d0a2-8294-4406-8963-9c5826d07ced" />
+
+
+<img width="1006" height="42" alt="Screenshot 2026-10-17 182447" src="https://github.com/user-attachments/assets/8daf9fd8-7844-4853-8f57-2af20beef840" />
+
+
+
+
+
+
+
+Can you spot and name one more popular persistence method? Not a MITRE technique name.
+
+
+was never gonna get this one - ```SUID Binaries```
+
+to find them, you'd do this command: ```find / -perm -u=s -type f 2>/dev/null```
+
+
+What are the original and the backdoored binaries from question 6?
+
+
+<img width="623" height="811" alt="Screenshot 2026-10-17 182658" src="https://github.com/user-attachments/assets/6f8db6a6-7bf2-42f1-ab17-4b48ddec60b9" />
+
+
+This one required a keen eye and experience to spot the anomaly. I had no idea even when I cheated.
+
+```/usr/bin/bash``` ```/usr/bin/clamav```
+
+
+
+
+
+
+What technique was used to hide the backdoor creation date?
+
+
+```Timestomping```, simple search. I didn't know how to search for creation date though.
+
 
 
 
