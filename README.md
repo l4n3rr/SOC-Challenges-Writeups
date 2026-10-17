@@ -35,3 +35,11 @@ Links directly to my step-by-step walkthroughs and methodology for each complete
 ## 🚀 How to Navigate This Repo
 1. Click on any link in the table above to open the dedicated writeup folder.
 2. Inside each folder, you will find a detailed `README.md` containing the step-by-step resolution, terminal commands used, and cropped screenshots illustrating key evidence.
+
+
+
+### Notes about me
+
+* Always start with the context
+* Investigative mindset - Start from the beginning, work your way to the end. In between, ```what would the attacker do now``` and ```what phase is the attacker in right now```
+* Troubleshooting mindset - Start physically -> digitally. In between, ask questions, act on alternatives that can narrow down the scope & symptoms
