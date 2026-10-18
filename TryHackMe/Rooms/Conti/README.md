@@ -20,6 +20,8 @@
 
 # *Investigate the situation!*
 
+*I'm still a bit iffy looking through Microsoft applications, but it shouldn't be too difficult*
+
 
 
 ## Can you identify the location of the ransomware?
