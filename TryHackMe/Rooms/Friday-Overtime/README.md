@@ -87,10 +87,20 @@ The malware framework is ```MgBot``` and this is what each DLL does.
 
 
 • wcdbcrk.dll: Tencent WeChat information stealer
+
+
 • qmsdp.dll: Tencent QQ chat history & database stealer
+
+
 • cbmrpa.dll: Clipboard text and USB data logger
+
+
 • pRsm.dll: Input/output audio stream capturer
+
+
 • maillfpassword.dll: Outlook and Foxmail credential stealer
+
+
 
 
 
@@ -101,12 +111,26 @@ The malware framework is ```MgBot``` and this is what each DLL does.
 **Which MITRE ATT&CK Technique is linked to using pRsm.dll in this malware framework?**
 
 
+More external research. Let's search ```Input/output audio stream capturer, which MITRE ATT&CK Technique is related?```
+
+```T1123```
+
+
+
+
 
 **What is the CyberChef defanged URL of the malicious download location first seen on 2020-11-02?**
 
 
 
+
+
+
+
 **What is the CyberChef defanged IP address of the C&C server first detected on 2020-09-14 using these modules?**
+
+
+
 
 
 
