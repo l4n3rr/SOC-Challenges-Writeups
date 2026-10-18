@@ -174,6 +174,6 @@ For this question, let's search the IP we just got on VirusTotal. It took me a b
 
 # Takeaways
 
-
+### Investigative, but leaned more to the research and OSINT side of things as opposed to looking through actual evidence on an endpoint/SIEM. It is just as important
 
 
