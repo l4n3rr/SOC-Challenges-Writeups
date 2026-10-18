@@ -17,8 +17,23 @@ Expectation Process:
 5. Compiling a comprehensive report with mitigation and recovery steps, ensuring SwiftSpend Finance could swiftly address potential threats.
 
 
+This is my message to investigate with the password ```Panda321!``` for archive, and this malware being a suspected RAT
+
+<img width="543" height="737" alt="Screenshot 2026-10-18 182258" src="https://github.com/user-attachments/assets/ab6068d5-18e0-4774-9e3b-94b89a6d35a3" />
+<img width="547" height="668" alt="Screenshot 2026-10-18 182305" src="https://github.com/user-attachments/assets/828bffc2-c945-40c8-a2cd-128ee3dfde66" />
+
+
+Let's understand what we're working with first
+
+<img width="252" height="539" alt="Screenshot 2026-10-18 182640" src="https://github.com/user-attachments/assets/da6cf296-6135-4603-b92d-11d91cb29294" />
+
+
+
 
 **Who shared the malware samples?**
+
+
+
 
 
 
