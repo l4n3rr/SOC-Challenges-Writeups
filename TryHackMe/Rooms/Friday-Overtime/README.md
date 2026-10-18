@@ -122,6 +122,23 @@ More external research. Let's search ```Input/output audio stream capturer, whic
 **What is the CyberChef defanged URL of the malicious download location first seen on 2020-11-02?**
 
 
+Time to search in the right place. The question is where?
+
+Trying to look through the DLL, it's all just encrypted information. Apparently, this room should be done purely through OSINT on ```ESET Research```
+
+
+<img width="798" height="344" alt="Screenshot 2026-10-18 185342" src="https://github.com/user-attachments/assets/c8677e7a-1742-4c36-ac7d-f3196216a291" />
+
+
+
+
+<img width="832" height="813" alt="Screenshot 2026-10-18 185506" src="https://github.com/user-attachments/assets/6c7bbb9c-1d61-4821-8156-d248d1dc8d34" />
+
+
+
+```hxxp[://]update[.]browser[.]qq[.]com/qmbs/QQ/QQUrlMgr_QQ88_4296.exe```
+
+
 
 
 
@@ -130,9 +147,33 @@ More external research. Let's search ```Input/output audio stream capturer, whic
 **What is the CyberChef defanged IP address of the C&C server first detected on 2020-09-14 using these modules?**
 
 
+<img width="808" height="280" alt="Screenshot 2026-10-18 190045" src="https://github.com/user-attachments/assets/91a23af9-a318-4893-9f3a-864bba547fc9" />
 
+
+
+```122[.]10[.]90[.]12```
 
 
 
 **What is the md5 hash of the spyagent family spyware hosted on the same IP targeting Android devices in Jun 2025?**
+
+
+For this question, let's search the IP we just got on VirusTotal. It took me a bit, but in ```Relations```, this looks like an md5 hash and seems to be it based on the malicious score
+
+
+```[951F41930489A8BFE963FCED5D8DFD79]```
+
+
+<img width="618" height="336" alt="Screenshot 2026-10-18 190628" src="https://github.com/user-attachments/assets/08a3e4bd-36b4-4c04-986b-bfbccbb7b2ac" />
+
+
+<img width="557" height="215" alt="Screenshot 2026-10-18 190633" src="https://github.com/user-attachments/assets/99e17db2-c44b-4a03-aab0-38142bfea02f" />
+
+
+
+
+# Takeaways
+
+
+
 
