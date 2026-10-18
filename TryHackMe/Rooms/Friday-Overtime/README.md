@@ -54,7 +54,11 @@ Unzipped!
 **Who shared the malware samples?**
 
 
+Simply see who sent the email
 
+
+
+<img width="409" height="225" alt="Screenshot 2026-10-18 183501" src="https://github.com/user-attachments/assets/f6c76841-7f7e-45ae-b4e6-9858e2b9fe95" />
 
 
 
@@ -70,6 +74,8 @@ Unzipped!
 
 
 **Which malware framework utilizes these DLLs as add-on modules?**
+
+
 
 
 
