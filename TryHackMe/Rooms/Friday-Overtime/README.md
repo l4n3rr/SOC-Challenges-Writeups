@@ -17,6 +17,10 @@ Expectation Process:
 5. Compiling a comprehensive report with mitigation and recovery steps, ensuring SwiftSpend Finance could swiftly address potential threats.
 
 
+*Damn this connection is slow*
+
+
+
 This is my message to investigate with the password ```Panda321!``` for archive, and this malware being a suspected RAT
 
 <img width="543" height="737" alt="Screenshot 2026-10-18 182258" src="https://github.com/user-attachments/assets/ab6068d5-18e0-4774-9e3b-94b89a6d35a3" />
@@ -25,7 +29,24 @@ This is my message to investigate with the password ```Panda321!``` for archive,
 
 Let's understand what we're working with first
 
+
+
 <img width="252" height="539" alt="Screenshot 2026-10-18 182640" src="https://github.com/user-attachments/assets/da6cf296-6135-4603-b92d-11d91cb29294" />
+
+
+
+Clicking the document of that message led to these DLLs
+
+
+<img width="847" height="540" alt="Screenshot 2026-10-18 183007" src="https://github.com/user-attachments/assets/33994026-0004-4ef6-a3d5-e703d0604a68" />
+
+
+Unzipped!
+
+
+<img width="785" height="437" alt="Screenshot 2026-10-18 183145" src="https://github.com/user-attachments/assets/566d2525-a510-4286-a1b6-39fe137045a3" />
+
+
 
 
 
@@ -37,7 +58,14 @@ Let's understand what we're working with first
 
 
 
+
+
+
 **What is the SHA1 hash of the file "pRsm.dll" inside samples.zip?**
+
+
+<img width="573" height="39" alt="Screenshot 2026-10-18 183220" src="https://github.com/user-attachments/assets/9f2653b1-6170-42dd-9bcd-246ecc665a53" />
+
 
 
 
