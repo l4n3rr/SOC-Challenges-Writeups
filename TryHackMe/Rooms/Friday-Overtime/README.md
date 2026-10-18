@@ -38,10 +38,14 @@ Let's understand what we're working with first
 Clicking the document of that message led to these DLLs
 
 
+
+
 <img width="847" height="540" alt="Screenshot 2026-10-18 183007" src="https://github.com/user-attachments/assets/33994026-0004-4ef6-a3d5-e703d0604a68" />
 
 
 Unzipped!
+
+
 
 
 <img width="785" height="437" alt="Screenshot 2026-10-18 183145" src="https://github.com/user-attachments/assets/566d2525-a510-4286-a1b6-39fe137045a3" />
@@ -54,7 +58,7 @@ Unzipped!
 **Who shared the malware samples?**
 
 
-Simply see who sent the email
+Simply see who sent the email - ```Oliver Bennett```
 
 
 
@@ -68,12 +72,27 @@ Simply see who sent the email
 **What is the SHA1 hash of the file "pRsm.dll" inside samples.zip?**
 
 
+
 <img width="573" height="39" alt="Screenshot 2026-10-18 183220" src="https://github.com/user-attachments/assets/9f2653b1-6170-42dd-9bcd-246ecc665a53" />
 
 
 
 
+
 **Which malware framework utilizes these DLLs as add-on modules?**
+
+
+This required external research, which these DLLs are used by the ```Evasive Panda``` APT.
+The malware framework is ```MgBot``` and this is what each DLL does.
+
+
+• wcdbcrk.dll: Tencent WeChat information stealer
+• qmsdp.dll: Tencent QQ chat history & database stealer
+• cbmrpa.dll: Clipboard text and USB data logger
+• pRsm.dll: Input/output audio stream capturer
+• maillfpassword.dll: Outlook and Foxmail credential stealer
+
+
 
 
 
