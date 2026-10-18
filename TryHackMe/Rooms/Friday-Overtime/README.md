@@ -55,7 +55,7 @@ Unzipped!
 
 
 
-**Who shared the malware samples?**
+## **Who shared the malware samples?**
 
 
 Simply see who sent the email - ```Oliver Bennett```
@@ -69,7 +69,7 @@ Simply see who sent the email - ```Oliver Bennett```
 
 
 
-**What is the SHA1 hash of the file "pRsm.dll" inside samples.zip?**
+## **What is the SHA1 hash of the file "pRsm.dll" inside samples.zip?**
 
 
 
@@ -79,7 +79,7 @@ Simply see who sent the email - ```Oliver Bennett```
 
 
 
-**Which malware framework utilizes these DLLs as add-on modules?**
+## **Which malware framework utilizes these DLLs as add-on modules?**
 
 
 This required external research, which these DLLs are used by the ```Evasive Panda``` APT.
@@ -108,7 +108,7 @@ The malware framework is ```MgBot``` and this is what each DLL does.
 
 
 
-**Which MITRE ATT&CK Technique is linked to using pRsm.dll in this malware framework?**
+## **Which MITRE ATT&CK Technique is linked to using pRsm.dll in this malware framework?**
 
 
 More external research. Let's search ```Input/output audio stream capturer, which MITRE ATT&CK Technique is related?```
@@ -119,7 +119,7 @@ More external research. Let's search ```Input/output audio stream capturer, whic
 
 
 
-**What is the CyberChef defanged URL of the malicious download location first seen on 2020-11-02?**
+## **What is the CyberChef defanged URL of the malicious download location first seen on 2020-11-02?**
 
 
 Time to search in the right place. The question is where?
@@ -144,7 +144,7 @@ Trying to look through the DLL, it's all just encrypted information. Apparently,
 
 
 
-**What is the CyberChef defanged IP address of the C&C server first detected on 2020-09-14 using these modules?**
+## **What is the CyberChef defanged IP address of the C&C server first detected on 2020-09-14 using these modules?**
 
 
 <img width="808" height="280" alt="Screenshot 2026-10-18 190045" src="https://github.com/user-attachments/assets/91a23af9-a318-4893-9f3a-864bba547fc9" />
@@ -155,7 +155,7 @@ Trying to look through the DLL, it's all just encrypted information. Apparently,
 
 
 
-**What is the md5 hash of the spyagent family spyware hosted on the same IP targeting Android devices in Jun 2025?**
+## **What is the md5 hash of the spyagent family spyware hosted on the same IP targeting Android devices in Jun 2025?**
 
 
 For this question, let's search the IP we just got on VirusTotal. It took me a bit, but in ```Relations```, this looks like an md5 hash and seems to be it based on the malicious score
