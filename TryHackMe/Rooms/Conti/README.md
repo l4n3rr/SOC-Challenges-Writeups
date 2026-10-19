@@ -1,5 +1,7 @@
 # SOC LVL 2 Capstone Challenge
 
+## Don't attempt to visit or interact with URLs in Ransom Note
+
 ## Context
 
 * Splunk!
