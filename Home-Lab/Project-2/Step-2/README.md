@@ -117,7 +117,7 @@ Failed... it worked better when I attempted again with -smb2support, still faile
 
 ## What I did in a few words is --- I captured the handshake of Win10 Machine, then relayed that information back to Win10 *when it should've been toward another machine* FAILED
 
-## Let's move to cracking the hash before moving to enumeration with BloodHound
+## Let's move on to cracking the hash
 
 
 I learned late that I needed to copy and paste *the entire hash*. I remember an answer on THM only working with part of an entire blob instead of the entire blob and applied it here. I learned otherwise in my homelab.
@@ -143,3 +143,24 @@ It apparently recognized my password hash, but I guess it just didn't crack. The
 
 
 
+
+
+<img width="143" height="52" alt="Screenshot 2026-10-20 105734" src="https://github.com/user-attachments/assets/46992369-2a4c-47a3-bbfc-88669acefaf0" />
+
+
+The crack kept failing and I never understood why UNTIL - ```all I had to fucking do, is make sure that the hash file does not have any unnecessary spaces or lines in it```
+
+
+<img width="777" height="250" alt="Screenshot 2026-10-20 110223" src="https://github.com/user-attachments/assets/64df9d7c-e380-45d7-80f3-b33f9db55177" />
+
+
+
+
+Bingo
+
+
+
+<img width="798" height="320" alt="Screenshot 2026-10-20 111948" src="https://github.com/user-attachments/assets/beb79e7e-6f9d-455a-8210-b2b4e180908d" />
+
+
+## Let's enumerate with BloodHound
