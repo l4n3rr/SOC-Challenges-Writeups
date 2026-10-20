@@ -115,13 +115,31 @@ Failed... it worked better when I attempted again with -smb2support, still faile
 4. Assumes legit user login
 5. Runs commands immediately
 
-## What I did in a few words is --- I captured the handshake of Win10 Machine, then relayed that information back to Win10 *when it should've been toward another machine*
+## What I did in a few words is --- I captured the handshake of Win10 Machine, then relayed that information back to Win10 *when it should've been toward another machine* FAILED
 
-## Let's move on to cracking the hash before moving to BloodHound
-
-
+## Let's move to cracking the hash before moving to enumeration with BloodHound
 
 
+I learned late that I needed to copy and paste *the entire hash*. I remember an answer on THM only working with part of an entire blob instead of the entire blob and applied it here. I learned otherwise in my homelab.
+
+
+<img width="634" height="422" alt="Screenshot 2026-10-20 102952" src="https://github.com/user-attachments/assets/e42db3a8-7822-4fe8-9853-bf5d0b82b32e" />
+
+
+
+Hashcat didn't work and needed to install stuff that I wasn't able to install (attempt, failed). Let's try John the Ripper
+
+
+
+<img width="711" height="408" alt="Screenshot 2026-10-20 103613" src="https://github.com/user-attachments/assets/717d9d0a-601d-40c6-8094-ba57bb9c2c59" />
+
+
+It apparently recognized my password hash, but I guess it just didn't crack. The one thing I can do to make this more legit, is creating my own wordlist to include the actual password of ```jdoe``` 
+
+
+
+
+<img width="732" height="141" alt="Screenshot 2026-10-20 104837" src="https://github.com/user-attachments/assets/921438bb-f31c-4612-9ec8-1f7f6375c4aa" />
 
 
 
