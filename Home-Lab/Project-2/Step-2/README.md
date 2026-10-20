@@ -169,3 +169,46 @@ Bingo
 
 
 ## Let's enumerate with BloodHound
+
+
+
+Failures all around.
+
+
+
+<img width="1548" height="502" alt="Screenshot 2026-10-20 183105" src="https://github.com/user-attachments/assets/1260c1c7-2955-4967-a734-e69be63565eb" />
+
+<img width="347" height="68" alt="Screenshot 2026-10-20 183338" src="https://github.com/user-attachments/assets/246b8b95-b606-4a92-967c-3a7ce72cf149" />
+
+
+
+
+I increased my chances of success by pointing the nameserver of Kali Linux to the DC IP
+
+<img width="306" height="91" alt="Screenshot 2026-10-20 184040" src="https://github.com/user-attachments/assets/057c0abb-b888-4fd9-ad81-2a20053c94d5" />
+
+
+Still failures all around with adjustments in my commands
+
+
+<img width="1414" height="134" alt="Screenshot 2026-10-20 184206" src="https://github.com/user-attachments/assets/b4efc161-cb05-4b6c-a4c1-2c12f2d8e4aa" />
+<img width="871" height="48" alt="Screenshot 2026-10-20 184504" src="https://github.com/user-attachments/assets/f5363744-349a-4374-94c3-35557af1b0ed" />
+
+<img width="881" height="86" alt="Screenshot 2026-10-20 184824" src="https://github.com/user-attachments/assets/93772d70-a4b1-44a7-915b-bfcb524917ba" />
+
+<img width="796" height="42" alt="Screenshot 2026-10-20 190221" src="https://github.com/user-attachments/assets/758ff494-2310-4961-b050-79dbb0db3f68" />
+
+
+All to no avail. After these failed attempts, I decided to stop attacking because the true thing I wanted to do, was monitor and defend on splunk with EVERYTHING I've done. 
+
+
+
+
+
+
+
+
+
+
+
+
