@@ -134,7 +134,7 @@ Hashcat didn't work and needed to install stuff that I wasn't able to install (a
 <img width="711" height="408" alt="Screenshot 2026-10-20 103613" src="https://github.com/user-attachments/assets/717d9d0a-601d-40c6-8094-ba57bb9c2c59" />
 
 
-It apparently recognized my password hash, but I guess it just didn't crack. The thing is, the rockyou.txt list my not have my actual jdoe password, so let's create my own wordlist and ensure that it's in there
+It apparently recognized my password hash, but I guess it just didn't crack. The thing is, the rockyou.txt list may not have my actual jdoe password, so let's create my own wordlist and ensure that it's in there
 
 
 
@@ -148,7 +148,7 @@ It apparently recognized my password hash, but I guess it just didn't crack. The
 <img width="143" height="52" alt="Screenshot 2026-10-20 105734" src="https://github.com/user-attachments/assets/46992369-2a4c-47a3-bbfc-88669acefaf0" />
 
 
-The crack kept failing and I never understood why UNTIL - ```all I had to fucking do, is make sure that the hash file does not have any unnecessary spaces or lines in it```
+The crack kept failing and I never understood why. The good thing is my 'possible solutions' was still narrowing down the problem. My own wordlist ensured that the password was in there, *still didn't understand why* **UNTIL** - ```all I had to fucking do, is make sure that the hash file does not have any unnecessary spaces or lines in it```
 
 
 <img width="777" height="250" alt="Screenshot 2026-10-20 110223" src="https://github.com/user-attachments/assets/64df9d7c-e380-45d7-80f3-b33f9db55177" />
