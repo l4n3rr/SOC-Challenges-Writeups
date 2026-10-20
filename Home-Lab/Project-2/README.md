@@ -1,11 +1,10 @@
-# AD Full Chain-Attack and Defend
+# AD Full Chain-Attack and Defend (semi-fail)
 
 0.5. [Mini AD Project](./Step-0.5/README.md)
 
 1. [Recon](./Step-1/README.md)
 2. [Compromise Basic User and Enumerate Domain](./Step-2/README.md)
-3. [Lateral Movement to DC](./Step-3/README.md)
-4. [Take Advantage](./Step-4/README.md) (fun and creative step)
+3. [Monitor and Detect!](./Step-3/README.md)
 
 ## 4 VMs
 1. Kali Linux Attack Box
