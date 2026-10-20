@@ -134,7 +134,7 @@ Hashcat didn't work and needed to install stuff that I wasn't able to install (a
 <img width="711" height="408" alt="Screenshot 2026-10-20 103613" src="https://github.com/user-attachments/assets/717d9d0a-601d-40c6-8094-ba57bb9c2c59" />
 
 
-It apparently recognized my password hash, but I guess it just didn't crack. The one thing I can do to make this more legit, is creating my own wordlist to include the actual password of ```jdoe``` 
+It apparently recognized my password hash, but I guess it just didn't crack. The thing is, the rockyou.txt list my not have my actual jdoe password, so let's create my own wordlist and ensure that it's in there
 
 
 
