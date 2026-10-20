@@ -148,7 +148,7 @@ It apparently recognized my password hash, but I guess it just didn't crack. The
 <img width="143" height="52" alt="Screenshot 2026-10-20 105734" src="https://github.com/user-attachments/assets/46992369-2a4c-47a3-bbfc-88669acefaf0" />
 
 
-The crack kept failing and I never understood why. The good thing is my 'possible solutions' was still narrowing down the problem. My own wordlist ensured that the password was in there, *still didn't understand why* **UNTIL** - ```all I had to fucking do, is make sure that the hash file does not have any unnecessary spaces or lines in it```
+The crack kept failing. The good thing is my 'possible solutions' was still narrowing down the problem. My own wordlist with the right password in there AND making sure there are no unnecessary spaces or lines. *Still didn't understand why* **UNTIL** - ```all I had to fucking do, is make sure that the hash file does not have any unnecessary spaces or lines in it```
 
 
 <img width="777" height="250" alt="Screenshot 2026-10-20 110223" src="https://github.com/user-attachments/assets/64df9d7c-e380-45d7-80f3-b33f9db55177" />
@@ -161,6 +161,11 @@ Bingo
 
 
 <img width="798" height="320" alt="Screenshot 2026-10-20 111948" src="https://github.com/user-attachments/assets/beb79e7e-6f9d-455a-8210-b2b4e180908d" />
+
+
+
+
+## I also completely forgot that while I have my splunk forwarders forwarding, it doesn't matter for this process, because it was all done offline.
 
 
 ## Let's enumerate with BloodHound
