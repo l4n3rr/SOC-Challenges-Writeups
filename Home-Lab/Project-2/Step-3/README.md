@@ -21,6 +21,9 @@ Found the logs including the NTLMv2!!
 
 5 events of these, and this generated during the ```Responder``` phase when I captured the NTLMv2 hash!
 
+### NEW DETECTION RULE FOR NTLM NETWORK LOGONS HITTING DC
+```4624, LogonType=3, AuthenticationPackage=NTLM```
+
 
 <img width="391" height="538" alt="Screenshot 2026-10-20 213051" src="https://github.com/user-attachments/assets/0b1f330e-2288-4dd7-b756-6f32db864365" />
 
