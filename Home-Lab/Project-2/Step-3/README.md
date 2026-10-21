@@ -24,3 +24,7 @@ Found the logs including the NTLMv2!!
 
 <img width="391" height="538" alt="Screenshot 2026-10-20 213051" src="https://github.com/user-attachments/assets/0b1f330e-2288-4dd7-b756-6f32db864365" />
 
+
+Let's look through Event Viewer in relation to the SMB attempts on Win-10!
+
+
