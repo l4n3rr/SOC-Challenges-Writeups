@@ -36,6 +36,7 @@ Probably the biggest things I learned is
 2. I didn't even know that if DNS didn't work, the OS doesn't give up on the attempts of name resolution and uses legacy protocol bs
 3. Enforcing Signing (SMB/LDAP) is essential to preventing attackers siting in the middle of a conversation (Responder as an example) and attaining information that can further their attack. TLDR; Signing keeps data authentic and untampered
 4. Logon Type is really good at determining the scope and what you're up against
+5. Attacking takes insane persistence to push through failures thousands and thousands of times
 
 
 
