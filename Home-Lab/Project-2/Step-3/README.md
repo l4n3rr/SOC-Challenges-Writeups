@@ -29,3 +29,13 @@ Found the logs including the NTLMv2!!
 
 
 
+## Takeaways
+
+Probably the biggest things I learned is 
+1. Legacy protocols may still be active, and should be disabled (Responder worked off of legacy protocols, and in this case, can be achieved via Group Policy ```turn off multicast name resolution```
+2. I didn't even know that if DNS didn't work, the OS doesn't give up on the attempts of name resolution and uses legacy protocol bs
+3. Enforcing Signing (SMB/LDAP) is essential to preventing attackers siting in the middle of a conversation (Responder as an example) and attaining information that can further their attack. TLDR; Signing keeps data authentic and untampered
+4. Logon Type is really good at determining the scope and what you're up against
+
+
+
