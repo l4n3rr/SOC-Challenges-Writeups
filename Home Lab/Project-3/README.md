@@ -4,7 +4,9 @@
 
 
 Spin up a Free Jira Cloud Instance: Create a Jira Service Management (JSM) project for IT operations.
+
 Build the Onboarding Form: Configure a customer portal request type called "New Employee Onboarding" with custom fields like First Name, Last Name, Department, and Start Date.
+
 Establish Workflow States: Set up a clear status progression (e.g., Submitted -> Pending Approval -> Approved -> Provisioned).
 
 * [Step-2](./Step-2/README.md): Active Directory & Permissions Setup
