@@ -138,6 +138,11 @@ This is the command right after and I'm pretty certain this is the migration
 <img width="472" height="35" alt="Screenshot 2026-10-22 121059" src="https://github.com/user-attachments/assets/6c1b1ab5-7f72-4b5e-8da2-d67ca7391c87" />
 
 
+I never clicked on the TryHackMe hint, but it showed me anyways for this question that I should search Sysmon 8 (which I've never done), and it seems to prove useful for migration of processes!
+
+``C:\Windows\System32\wbem\unsecapp.exe``
+
+<img width="549" height="168" alt="Screenshot 2026-10-22 121947" src="https://github.com/user-attachments/assets/553ba5c2-2281-4798-858b-5402cf653c8a" />
 
 
 
@@ -149,6 +154,29 @@ This is the command right after and I'm pretty certain this is the migration
 
 
 ## The attacker also injected into a system process to retrieve the hashes. What is the target process image used for getting the system hashes?
+
+Let's go back to Sysmon 1
+
+<img width="523" height="120" alt="Screenshot 2026-10-22 122302" src="https://github.com/user-attachments/assets/f6178334-9ea3-4924-a167-9a598d00c627" />
+
+Interesting finding that I might need later
+
+
+<img width="1017" height="30" alt="Screenshot 2026-10-22 122307" src="https://github.com/user-attachments/assets/1923b1bd-7879-460d-888d-f0cafe268454" />
+
+
+Some findings were interesting, but the answer was apparently still in Sysmon 8
+
+
+I honestly don't understand this, but I found it
+
+
+```C:\Windows\System32\lsass.exe```
+
+<img width="400" height="28" alt="Screenshot 2026-10-22 122708" src="https://github.com/user-attachments/assets/c0a75b61-c594-4db1-a172-ce76befc0907" />
+
+
+
 
 
 
