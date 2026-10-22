@@ -183,12 +183,137 @@ I honestly don't understand this, but I found it
 ## What is the web shell the exploit deployed to the system?
 
 
+Web means let's go to ``iis`` logs now! The one essential that I forgot that IS NEEDED IS looking for POST requests, because the web shell was DEPLOYED TO SYSTEM
+
+<img width="463" height="75" alt="Screenshot 2026-10-22 123218" src="https://github.com/user-attachments/assets/810c16fd-2bba-445e-831b-3a42c89206a7" />
+
+The very bottom value looked suspicious
+
+<img width="561" height="479" alt="Screenshot 2026-10-22 123344" src="https://github.com/user-attachments/assets/9a03b77b-d7a5-457f-a161-93b637a11cef" />
+
+
+Was right to keep this in mind!!
+
+```i3gfPctK1c2x.aspx```
+
+
+<img width="1017" height="30" alt="Screenshot 2026-10-22 122307" src="https://github.com/user-attachments/assets/62f15d1a-cd52-4a6e-816c-ef4e402d8f33" />
+
+
+
+
+
 
 ## What is the command line that executed this web shell?
 
 
 
+Let's search for the web shell now that we have it, and make sure that it's within Sysmon 1. The answer should be with that EventCode
+
+
+<img width="623" height="223" alt="Screenshot 2026-10-22 123813" src="https://github.com/user-attachments/assets/7ab151f8-c751-46a8-ac3b-8f777d73a96f" />
+
+
+
+
+
+
+
+
 ## What three CVEs did this exploit leverage? Provide the answer in ascending order.
+
+*external research*
+
+
+
+```• CVE-2018-13374```
+
+
+## Overview
+
+• Vulnerability Type: Improper Access Control (CWE-732)
+• CVSS Score: 4.3 (Medium)
+• CISA Status: Listed in the CISA Known Exploited Vulnerabilities Catalog (added September 8, 2022)
+• Vendor Advisory: Fortinet PSIRT Advisory FG-IR-18-157
+
+## Affected Software
+
+• Fortinet FortiOS: Up to version 6.0.2 (excluding version 6.0.3), version 5.6.7 and earlier
+• Fortinet FortiADC: Versions 5.4.0 through 5.4.4, 6.0.0 through 6.0.1, and 6.1.0
+
+## Mechanism & Impact
+
+• What happens: An authenticated attacker with low privileges can capture configured LDAP server login credentials in plaintext.
+• How it works: The vulnerability is triggered by redirecting an LDAP server connectivity test request (via modified parameters like /api/ldap) to a rogue/attacker-controlled LDAP server instead of the legitimate configured server.
+
+## Remediation
+
+(Fortinet LDAP Info Leak)	Upgrade FortiOS to version 6.0.3 or later.
+Upgrade FortiADC to patched branches.	Rotate LDAP credentials immediately if the device was exposed, as plaintext passwords may have been intercepted.
+
+
+
+```• CVE-2018-13379```
+
+## Overview
+
+• Vulnerability Type: Path Traversal / Arbitrary File Read (CWE-22)
+• CVSS Score: 9.8 (Critical) (NVD) / 9.1 (Fortinet)
+• CISA Status: Listed in the CISA Known Exploited Vulnerabilities Catalog and the subject of multiple joint FBI-CISA cyber advisories.
+• Vendor Advisory: Fortinet PSIRT Advisory FG-IR-18-384
+
+## Affected Software
+
+The vulnerability exists when the SSL-VPN service (web-mode or tunnel-mode) is enabled.
+• FortiOS: 6.0.0 to 6.0.4, 5.6.3 to 5.6.7, and 5.4.6 to 5.4.12
+• FortiProxy: 1.0.0 to 1.0.7, 1.1.0 to 1.1.6, 1.2.0 to 1.2.8, and 2.0.0
+
+## Mechanism & Impact
+
+• How it works: The FortiOS SSL-VPN web portal does not properly sanitize input parameters passed to its language customization endpoint (/remote/fgt_lang). An unauthenticated, remote attacker can send a specially crafted HTTP request using directory traversal sequences (../) to escape the web root and read internal system files.
+• The Impact: Attackers primarily target the system file containing active web sessions (/dev/cmdb/sslvpn_websession). This file stores the usernames, cleartext passwords, and IP addresses of connected VPN users.
+• Real-World Abuse: Because it requires no authentication to execute, threat actors routinely used it to scrape thousands of active credentials. In multiple high-profile incidents, lists containing tens of thousands of leaked corporate Fortinet VPN credentials stolen via this bug were dumped onto underground hacking forums
+
+## Remediation
+
+Upgrade FortiOS to patched branches (e.g., 5.4.13, 5.6.14, 6.0.13, 6.2.9, or 6.4+).	1. Force a global password reset for all VPN users (patching does not invalidate stolen passwords).
+2. Enforce MFA.
+3. Check logs for ```/remote/fgt_lang?lang=``` to audit for past session theft.
+
+
+
+
+
+```• CVE-2020-0796```
+
+
+## Overview
+
+• Vulnerability Type: Buffer Overflow via Integer Overflow (CWE-119 / CWE-190)
+• CVSS Score: 10.0 (Critical)
+• CISA Status: Listed in the CISA Known Exploited Vulnerabilities Catalog. CISA issued emergency alerts due to functional public proof-of-concept (PoC) code being actively used by attackers.
+• Vendor Security Advisory: Disclosed out-of-band by Microsoft in March 2020 (ADV200005).
+
+## Affected Software
+
+The vulnerability impacts the compression mechanism built into SMBv3.1.1:
+• Windows 10: Versions 1903 and 1909 (32-bit, x64, and ARM64)
+• Windows Server: Versions 1903 and 1909 (Server Core installations)
+
+## Mechanism & Impact
+
+• How it works: The bug is located in the Srv2DecompressData function within the srv2.sys SMB kernel driver. When handling a specially crafted SMBv3 packet containing compressed data, a lack of strict bounds checking leads to an integer overflow during buffer allocation. This results in non-paged pool memory corruption.
+• Dual Exposure (Server & Client):
+	• Attacking a Server: An unauthenticated, remote attacker can send a malicious packet to a vulnerable server listening on TCP port 445.
+	• Attacking a Client: A malicious server can exploit a vulnerable client computer that attempts to connect to it.
+• The Impact: Successful execution grants the attacker SYSTEM-level privileges (the highest authorization level in Windows), allowing them to completely compromise the underlying OS, execute arbitrary commands, and move laterally across the network. Unsuccessful execution crashes the machine into a Blue Screen of Death (BSOD)
+
+
+## Remediation
+
+
+Apply Microsoft cumulative update KB4551762.	Disable SMBv3 compression via Registry/PowerShell if patching is delayed. Block TCP Port 445 at the perimeter.
+
 
 
 
