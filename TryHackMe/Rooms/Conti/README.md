@@ -32,6 +32,7 @@
 
 ## What is the Sysmon event ID for the related file creation event?
 
+``11``
 
 
 ## Can you find the MD5 hash of the ransomware?
