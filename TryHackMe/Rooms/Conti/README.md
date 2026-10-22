@@ -24,9 +24,34 @@
 
 *I'm still a bit iffy looking through Microsoft applications, but it shouldn't be too difficult*
 
+Let's begin
+
+<img width="481" height="92" alt="Screenshot 2026-10-22 114439" src="https://github.com/user-attachments/assets/e5e3b9d5-4cf8-439e-a412-66ac7de71b69" />
+
+
 
 
 ## Can you identify the location of the ransomware?
+
+Always start with context information, and move from there -
+
+Looking through the source outputs, I already found the readme.txt -
+
+<img width="357" height="471" alt="Screenshot 2026-10-22 114602" src="https://github.com/user-attachments/assets/16aa28c2-f9f5-4fee-865e-09346bc11f8a" />
+
+
+
+
+Truly a ransomware - 
+
+
+<img width="702" height="402" alt="Screenshot 2026-10-22 114722" src="https://github.com/user-attachments/assets/a125cac7-b1f3-4b57-bb5e-e63ea7dbd882" />
+
+
+
+And since the 1st question is asking for the specific path, any source output similar to this will lead us to the answer-
+
+
 
 
 
