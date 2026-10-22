@@ -226,7 +226,7 @@ Let's search for the web shell now that we have it, and make sure that it's with
 
 
 
-```• CVE-2018-13374```
+# ```CVE-2018-13374```
 
 
 ## Overview
@@ -253,7 +253,7 @@ Upgrade FortiADC to patched branches.	Rotate LDAP credentials immediately if the
 
 
 
-```• CVE-2018-13379```
+# ```CVE-2018-13379```
 
 ## Overview
 
@@ -284,7 +284,7 @@ Upgrade FortiOS to patched branches (e.g., 5.4.13, 5.6.14, 6.0.13, 6.2.9, or 6.4
 
 
 
-```• CVE-2020-0796```
+# ```CVE-2020-0796```
 
 
 ## Overview
