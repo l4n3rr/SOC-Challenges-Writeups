@@ -124,14 +124,23 @@ This is definitely it and the only pattern within this query ```readme.txt```. A
 Boom ```net  user /add securityninja hardToHack123$```
 
 
-<img width="472" height="35" alt="Screenshot 2026-10-22 121059" src="https://github.com/user-attachments/assets/6c230e7d-609b-4758-9214-b209e9bd28f3" />
+<img width="345" height="28" alt="Screenshot 2026-10-22 121421" src="https://github.com/user-attachments/assets/efb7f61f-e6ac-4cb6-8be3-04c1b40f110e" />
 
 
 
 
 ## The attacker migrated the process for better persistence. What is the migration target (full image path)?
 
-I wish I knew what "the process" was precisely in this question...
+"the process" = added user (for context)
+
+This is the command right after and I'm pretty certain this is the migration
+
+<img width="472" height="35" alt="Screenshot 2026-10-22 121059" src="https://github.com/user-attachments/assets/6c1b1ab5-7f72-4b5e-8da2-d67ca7391c87" />
+
+
+
+
+
 
 
 
