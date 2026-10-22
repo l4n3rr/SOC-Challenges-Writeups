@@ -49,7 +49,17 @@ Truly a ransomware -
 
 
 
-And since the 1st question is asking for the specific path, any source output similar to this will lead us to the answer-
+And since the 1st question is asking for the specific path, any source output similar to this will lead us to the answer (and remember that iis logs are web server logs!)
+
+
+<img width="454" height="74" alt="Screenshot 2026-10-22 115301" src="https://github.com/user-attachments/assets/84b184c7-8763-429f-8795-4c902ef4307b" />
+
+
+I dug through that query above, and the image in this next screenshot stood out to me, and I'm pretty sure this is it! (I also answered the 2nd question easily before this one, and that eventID would've been just as good to figure this question out!)
+
+
+<img width="593" height="146" alt="Screenshot 2026-10-22 115506" src="https://github.com/user-attachments/assets/ba8cf7d4-2e12-46b1-9088-e78df4f7ecc0" />
+
 
 
 
