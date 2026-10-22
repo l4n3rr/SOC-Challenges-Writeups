@@ -116,9 +116,26 @@ This is definitely it and the only pattern within this query ```readme.txt```. A
 
 ## What was the command the attacker used to add a new user to the compromised system?
 
+**net user** is pretty common here, so let's search that
+
+<img width="283" height="68" alt="Screenshot 2026-10-22 121051" src="https://github.com/user-attachments/assets/625d5d19-6920-49d1-ae93-289e43471c35" />
+
+
+Boom ```net  user /add securityninja hardToHack123$```
+
+
+<img width="472" height="35" alt="Screenshot 2026-10-22 121059" src="https://github.com/user-attachments/assets/6c230e7d-609b-4758-9214-b209e9bd28f3" />
+
+
 
 
 ## The attacker migrated the process for better persistence. What is the migration target (full image path)?
+
+I wish I knew what "the process" was precisely in this question...
+
+
+
+
 
 
 
