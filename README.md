@@ -23,6 +23,10 @@ Links directly to my step-by-step walkthroughs and methodology for each complete
 
 | TryHackMe | **APIWizards Breach** | [View Writeup](./TryHackMe/Rooms/APIWizards-Breach/README.md) |
 
+| TryHackMe | **Conti** | [View Writeup](./TryHackMe/Rooms/Conti/README.md) |
+
+| TryHackMe | **Friday-Overtime** | [View Writeup](./TryHackMe/Rooms/Friday-Overtime/README.md)
+
 
 
 
