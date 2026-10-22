@@ -77,10 +77,40 @@ Now I should look through Sysmon 1 to find the hash associated to the ransomware
 I also forgot to do, so I went back to the finding of the ransomware, and noted down the computer name of ```bellybear```
 
 
+This query should easily lead me to the hash, either the location, or the exact filename.
+
+
+
+<img width="696" height="79" alt="Screenshot 2026-10-22 120142" src="https://github.com/user-attachments/assets/23c198fa-a696-4377-95e6-6de9c9172ac1" />
+
+
+Boom ```290c7dfb01e50cea9e19da81a781af2c```
+
+
+<img width="556" height="106" alt="Screenshot 2026-10-22 120314" src="https://github.com/user-attachments/assets/8aca12cd-b28b-4631-87c7-1ccea4bbb382" />
+
+
+
+
 
 
 
 ## What file was saved to multiple folder locations?
+
+
+
+I tried this query to discover patterns
+
+<img width="470" height="102" alt="Screenshot 2026-10-22 120705" src="https://github.com/user-attachments/assets/b0be8789-968d-4d38-97bb-3b1f720c2f05" />
+
+
+
+This is definitely it and the only pattern within this query ```readme.txt```. Attackers essentially placed Ransomware everywhere
+
+
+<img width="835" height="576" alt="Screenshot 2026-10-22 120815" src="https://github.com/user-attachments/assets/b912e945-bd57-4030-87dc-904ec8ea8ec9" />
+
+
 
 
 
