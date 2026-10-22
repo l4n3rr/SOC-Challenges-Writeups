@@ -73,6 +73,10 @@ I dug through that query above, and the image in this next screenshot stood out 
 ## Can you find the MD5 hash of the ransomware?
 
 
+Now I should look through Sysmon 1 to find the hash associated to the ransomware -
+I also forgot to do, so I went back to the finding of the ransomware, and noted down the computer name of ```bellybear```
+
+
 
 
 
