@@ -13,6 +13,7 @@ I am an aspiring SOC Analyst focused on networking, defensive security, cloud in
 Links directly to my step-by-step walkthroughs and methodology for each completed room:
 
 | Platform | Challenge / Room Name | Walkthrough Link |
+|---|---|---|
 
 
 
@@ -30,9 +31,11 @@ Links directly to my step-by-step walkthroughs and methodology for each complete
 
 
 
-| Home Lab | **Project-1** | [View Writeup](/Home%20Lab/Project-1/README.md) |
+| Home Lab | **Project-1** | [View Writeup](./Home%20Lab/Project-1/README.md) |
 
 | Home Lab | **Project-2** | [View Writeup](./Home-Lab/Project-2/README.md) |
+
+| Home Lab | **Project-3** (in progress) | [View Writeup](./Home%20Lab/Project-3/README.md) |
 
 ---
 
