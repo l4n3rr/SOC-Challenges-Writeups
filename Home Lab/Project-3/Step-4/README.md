@@ -76,6 +76,8 @@ I had to do more troubleshooting, but BOOM!
 
 ```not perfect, but the success of the automation bridge is the most important```
 
+*i didnt show it, but it even contained the temporary password that the script said it would generate*
+
 <img width="249" height="169" alt="Screenshot 2026-10-25 152414" src="https://github.com/user-attachments/assets/845d2f11-e276-45b9-95c6-99e0708fe126" />
 
 <img width="350" height="46" alt="Screenshot 2026-10-25 152427" src="https://github.com/user-attachments/assets/c3114f28-240e-4e3c-9f61-af8b4cdf02e6" />
