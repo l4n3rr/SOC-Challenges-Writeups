@@ -93,3 +93,5 @@ I had to do more troubleshooting, but BOOM!
 
 
 ## In a real corporate environment, pressed on time, I'd just easily configure and re-write the names to ensure that they're correct. Without being pressed on time, I'd take that time to fix the script and it's naming / logic so I wouldn't have to manually do it every time
+
+## In a real corporate environment, I'd also have AI aid me in the creation of the script. Clearly with all the attempts and my ```AutomationScript9thAttempt.ps1```, AI isn't perfect, and I had to kept touching on it to make it work
