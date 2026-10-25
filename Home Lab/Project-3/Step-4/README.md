@@ -32,7 +32,7 @@ I swapped to have active connection, but I still had to troubleshoot the root pr
 
 I confirmed that I have active connection, now I need to ensure with a new API token, that it is reach-able and able to connect to Jira.
 
-<img width="560" height="108" alt="Screenshot 2026-10-25 145959" src="https://github.com/user-attachments/assets/0e830eee-f001-437d-bba3-455ab26a0d7a" />
+<img width="560" height="58" alt="684175053-0e830eee-f001-437d-bba3-455ab26a0d7a" src="https://github.com/user-attachments/assets/f088fc99-6395-4abd-a51b-2399754b3c2c" />
 
 
 Let's try one more time! Please work. Nope.
