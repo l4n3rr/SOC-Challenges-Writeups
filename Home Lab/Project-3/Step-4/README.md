@@ -89,3 +89,7 @@ I had to do more troubleshooting, but BOOM!
 
 
 <img width="143" height="37" alt="Screenshot 2026-10-25 152318" src="https://github.com/user-attachments/assets/f1c28e07-1725-423b-af3a-223bda979641" />
+
+
+
+## In a real corporate environment, pressed on time, I'd just easily configure and re-write the names to ensure that they're correct. Without being pressed on time, I'd take that time to fix the script and it's naming
