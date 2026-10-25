@@ -17,8 +17,12 @@ This might be the syntax error. Lets try again
 <img width="310" height="57" alt="Screenshot 2026-10-25 143750" src="https://github.com/user-attachments/assets/6bb17ffe-fd53-4087-8a7b-cb06f08ae701" />
 
 
-<img width="308" height="44" alt="Screenshot 2026-10-25 143849" src="https://github.com/user-attachments/assets/aef9d470-0ef0-4cda-934c-ed28fcbad08b" />
-
 
 
 **Another error, and my guess is, the only way to resolve my domain is to have active connection on the VM**
+
+
+
+<img width="308" height="44" alt="Screenshot 2026-10-25 143849" src="https://github.com/user-attachments/assets/aef9d470-0ef0-4cda-934c-ed28fcbad08b" />
+
+
