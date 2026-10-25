@@ -27,3 +27,15 @@ This might be the syntax error. Lets try again
 
 
 ## Let's power the VM with connection this time, ping google.com and my own domain, then try again
+
+I confirmed that I have active connection, now I need to ensure with a new API token, that it is reach-able and able to connect to Jira.
+
+<img width="560" height="108" alt="Screenshot 2026-10-25 145959" src="https://github.com/user-attachments/assets/0e830eee-f001-437d-bba3-455ab26a0d7a" />
+
+
+Let's try one more time! Please work. Nope.
+<img width="891" height="39" alt="Screenshot 2026-10-25 150233" src="https://github.com/user-attachments/assets/0b4da468-4185-43a3-9cb6-1bf785be8dcc" />
+
+
+
+
