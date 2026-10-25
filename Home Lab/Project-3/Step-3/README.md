@@ -41,7 +41,4 @@ Posts a Comment: It sends a formatted comment back to that specific Jira ticket 
 Resolves the Ticket: It queries Jira's available workflow transitions for that issue, locates the one corresponding to "Done", and automatically transitions the ticket status so it disappears from the active queue.
 
 
-# Let's create test ticket in Jira
-
-<img width="368" height="422" alt="Screenshot 2026-10-25 142349" src="https://github.com/user-attachments/assets/415aff12-d207-46ab-ae20-fe2f8085a0e3" />
 
