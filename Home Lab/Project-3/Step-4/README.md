@@ -19,7 +19,9 @@ This might be the syntax error. Lets try again
 
 
 
-**Another error, and my guess is, the only way to resolve my domain is to have active connection on the VM**
+**Another error, and my guess is, the only way to resolve my domain is to have active connection on the VM (which I don't, my VM is on host-only adapter network), and ensure that DNS works (since the script deponds on my Jira domain). Let's make these changes**
+
+I swapped to have active connection, but I still had to troubleshoot the root problem. Going into the DNS server configuration within ```dnsmgmt.msc```, DNS basically had no forwarders. For this lab, I needed to setup a forwarder, and it's as simple as creating a forwarder that points to google's IP ```8.8.8.8``` so that it could use google to look for my domain!
 
 
 
