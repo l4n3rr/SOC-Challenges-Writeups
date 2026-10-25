@@ -2,6 +2,13 @@
 
 This took a lot of time because I realized I don't have copy and paste and that I had to configure it for that, so I was like, let me just type the entire thing, then I realized that it would take me like 20 more minutes to copy the script, so I just downloaded Guest Additions and copy and pasted the Powershell script from AI that's supposed to achieve these things
 
+
+<img width="535" height="107" alt="Screenshot 2026-10-25 141847" src="https://github.com/user-attachments/assets/ba9ea8dc-f6e0-4b65-901e-73850577530e" />
+
+
+
+
+
 ## Step 1: Connects & Authenticates with Jira
 It securely encodes your Atlassian account email and API Token into a Base64 HTTP Basic Authentication header.
 
@@ -35,3 +42,6 @@ Resolves the Ticket: It queries Jira's available workflow transitions for that i
 
 
 # Let's create test ticket in Jira
+
+<img width="368" height="422" alt="Screenshot 2026-10-25 142349" src="https://github.com/user-attachments/assets/415aff12-d207-46ab-ae20-fe2f8085a0e3" />
+
