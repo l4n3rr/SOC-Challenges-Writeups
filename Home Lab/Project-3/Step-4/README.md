@@ -62,4 +62,10 @@ New below:
 <img width="589" height="43" alt="Screenshot 2026-10-25 151710" src="https://github.com/user-attachments/assets/751d89ea-51fe-439a-bc59-57a96dcb01ae" />
 
 
+New ticket:
+
+<img width="368" height="61" alt="Screenshot 2026-10-25 151755" src="https://github.com/user-attachments/assets/99f1bf69-92c8-4367-a495-47271f19fad4" />
+
+
+
 
