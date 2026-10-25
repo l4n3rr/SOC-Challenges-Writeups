@@ -42,5 +42,10 @@ Script works I believe!!! Still have to troubleshoot, but it's progress
 <img width="628" height="64" alt="Screenshot 2026-10-25 150818" src="https://github.com/user-attachments/assets/898fa5b0-460d-41a7-a998-c11f640bd69d" />
 
 
-The script looks for a keyword within my ticket summary such as "Onboard" which is really so that it knows to go through with the script, it's just not in my ticket!
+The script looks for the project as well as a keyword within my ticket summary such as "Onboard" which is so that it knows to go through with the script and can find the ticket
 
+When I made 2 service request onboarding tickets, these are the keys, and the script is looking for the IO, but I have it set to IT. Also the ticket should have "onboard" within the summary!
+
+<img width="60" height="157" alt="Screenshot 2026-10-25 151346" src="https://github.com/user-attachments/assets/084f1c1a-fbf5-4960-bcf1-a7dacbbbcbc4" />
+
+Here is the exact line: ```$JqlQuery = 'project = "IO" AND status != "Done" AND summary ~ "Onboard"'```
