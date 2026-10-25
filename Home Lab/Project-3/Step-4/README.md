@@ -92,4 +92,4 @@ I had to do more troubleshooting, but BOOM!
 
 
 
-## In a real corporate environment, pressed on time, I'd just easily configure and re-write the names to ensure that they're correct. Without being pressed on time, I'd take that time to fix the script and it's naming
+## In a real corporate environment, pressed on time, I'd just easily configure and re-write the names to ensure that they're correct. Without being pressed on time, I'd take that time to fix the script and it's naming / logic so I wouldn't have to manually do it every time
