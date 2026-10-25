@@ -6,5 +6,11 @@ Let's create a space in Jira named "IT Operations" and then create a service req
 
 
 
-Let's grab the API token before moving on to AD! That's it! Pretty simple step 1
+Let's grab the API token before moving on to AD! That's it!
+
+<img width="754" height="518" alt="Screenshot 2026-10-24 212506" src="https://github.com/user-attachments/assets/d9ccda43-a469-4be1-83fb-54f52ddb4502" />
+
+
+
+*random note for me* Jira web software is pretty damn confusing navigation-wise
 
