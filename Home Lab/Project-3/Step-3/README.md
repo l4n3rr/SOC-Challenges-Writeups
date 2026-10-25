@@ -41,4 +41,13 @@ Posts a Comment: It sends a formatted comment back to that specific Jira ticket 
 Resolves the Ticket: It queries Jira's available workflow transitions for that issue, locates the one corresponding to "Done", and automatically transitions the ticket status so it disappears from the active queue.
 
 
+**This script contains variables to make it more intuitive**
+
+$JiraDomain (e.g., your Atlassian site name)
+
+$JiraEmail (your login email)
+
+$ApiToken (the token you generated earlier)
+
+$BaseParentOU (OU=LabUsers,DC=lab,DC=local)
 
