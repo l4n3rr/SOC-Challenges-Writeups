@@ -84,3 +84,4 @@ I had to do more troubleshooting, but BOOM!
 <img width="141" height="36" alt="Screenshot 2026-10-25 152430" src="https://github.com/user-attachments/assets/2f58e761-a199-42af-a034-50c0cd5e4377" />
 
 
+<img width="143" height="37" alt="Screenshot 2026-10-25 152318" src="https://github.com/user-attachments/assets/f1c28e07-1725-423b-af3a-223bda979641" />
