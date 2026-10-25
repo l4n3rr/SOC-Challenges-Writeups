@@ -32,3 +32,6 @@ It executes the New-ADUser cmdlet to create the account directly inside the corr
 Posts a Comment: It sends a formatted comment back to that specific Jira ticket containing the newly created username, UPN, target OU path, and temporary password so IT staff can securely hand it off to the new employee.
 
 Resolves the Ticket: It queries Jira's available workflow transitions for that issue, locates the one corresponding to "Done", and automatically transitions the ticket status so it disappears from the active queue.
+
+
+# Let's create test ticket in Jira
