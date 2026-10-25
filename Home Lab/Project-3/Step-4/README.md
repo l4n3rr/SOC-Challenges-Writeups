@@ -67,5 +67,12 @@ New ticket:
 <img width="368" height="61" alt="Screenshot 2026-10-25 151755" src="https://github.com/user-attachments/assets/99f1bf69-92c8-4367-a495-47271f19fad4" />
 
 
+I had to do more troubleshooting, but BOOM!
+
+<img width="740" height="101" alt="Screenshot 2026-10-25 152147" src="https://github.com/user-attachments/assets/7e03ab8d-3681-4060-b364-3078e040be2a" />
+
+
+**Let's now do full confirmation within the Jira ticket + AD within DC**
+
 
 
