@@ -11,7 +11,7 @@ Let's create a managed svc account!
 *create, delete, manage user accts, reset passwords on user accts ONLY UNDERNEATH LabUsers OU* instead of *user under a security group with wide range of permissions*
 
 
-But actually, I should redo the svc account, but not in that OU specifically because that is reserved for special MSA/gMSA objects to be referred to within Powershell scripts
+But actually, I should redo the svc account, but not in the ```Managed Service Accounts``` OU specifically because that is reserved for special MSA/gMSA objects to be referred to within Powershell scripts
 
 <img width="159" height="35" alt="Screenshot 2026-10-25 132134" src="https://github.com/user-attachments/assets/144129b2-3a9b-4b47-8229-5a743412c061" />
 <img width="378" height="115" alt="Screenshot 2026-10-25 132416" src="https://github.com/user-attachments/assets/d191b90d-8c20-4ee7-83b8-dcca20e7e232" />
