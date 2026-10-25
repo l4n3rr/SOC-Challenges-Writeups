@@ -49,3 +49,17 @@ When I made 2 service request onboarding tickets, these are the keys, and the sc
 <img width="60" height="157" alt="Screenshot 2026-10-25 151346" src="https://github.com/user-attachments/assets/084f1c1a-fbf5-4960-bcf1-a7dacbbbcbc4" />
 
 Here is the exact line: ```$JqlQuery = 'project = "IO" AND status != "Done" AND summary ~ "Onboard"'```
+
+Original below:
+
+
+<img width="616" height="41" alt="Screenshot 2026-10-25 151644" src="https://github.com/user-attachments/assets/6cd85e2c-765e-40cb-9757-0d32e364fb95" />
+
+
+
+New below:
+
+<img width="589" height="43" alt="Screenshot 2026-10-25 151710" src="https://github.com/user-attachments/assets/751d89ea-51fe-439a-bc59-57a96dcb01ae" />
+
+
+
