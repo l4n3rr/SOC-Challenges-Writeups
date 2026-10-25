@@ -42,5 +42,5 @@ Script works I believe!!! Still have to troubleshoot, but it's progress
 <img width="628" height="64" alt="Screenshot 2026-10-25 150818" src="https://github.com/user-attachments/assets/898fa5b0-460d-41a7-a998-c11f640bd69d" />
 
 
-
+The script looks for a keyword within my ticket summary such as "Onboard" which is really so that it knows to go through with the script, it's just not in my ticket!
 
