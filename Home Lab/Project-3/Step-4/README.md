@@ -26,3 +26,4 @@ This might be the syntax error. Lets try again
 <img width="308" height="44" alt="Screenshot 2026-10-25 143849" src="https://github.com/user-attachments/assets/aef9d470-0ef0-4cda-934c-ed28fcbad08b" />
 
 
+## Let's power the VM with connection this time, ping google.com and my own domain, then try again
