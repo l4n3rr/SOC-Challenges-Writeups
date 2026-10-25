@@ -37,5 +37,10 @@ Let's try one more time! Please work. Nope.
 <img width="891" height="39" alt="Screenshot 2026-10-25 150233" src="https://github.com/user-attachments/assets/0b4da468-4185-43a3-9cb6-1bf785be8dcc" />
 
 
+Script works I believe!!! Still have to troubleshoot, but it's progress
+
+<img width="628" height="64" alt="Screenshot 2026-10-25 150818" src="https://github.com/user-attachments/assets/898fa5b0-460d-41a7-a998-c11f640bd69d" />
+
+
 
 
