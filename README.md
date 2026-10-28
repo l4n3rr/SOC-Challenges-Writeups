@@ -5,6 +5,17 @@ This repository serves as a centralized hub documenting my methodology, analytic
 ## 👤 About Me
 I am an aspiring SOC Analyst documenting real lab work and investigations. CompTIA Security+ certified, with hands-on experience in Splunk log analysis, Active Directory, PowerShell automation, and TryHackMe SOC Level 1 and 2 rooms. Every write-up here shows the steps I took, the evidence I found, and what I learned in order to sharpen my skills in log analysis, network forensics, DFIR, SIEM search logic & queries and documentation.
 
+## 🛠️ Stacks & Tools
+TryHackMe
+VirtualBox
+Powershell
+Wireshark
+Active Directory
+Python
+Cisco Packet Tracer
+Jira
+
+
 ---
 
 ## 📂 Completed Challenges & Rooms
