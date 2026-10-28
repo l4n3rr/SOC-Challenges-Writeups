@@ -19,22 +19,22 @@ Links directly to my step-by-step walkthroughs and methodology for each complete
 
 
 
-| 🎮 TryHackMe SOC2 | **Servidae** | [View Writeup](./TryHackMe/Rooms/Servidae/README.md) |
+| 🎮 TryHackMe _SOC2_ | **Servidae** | [View Writeup](./TryHackMe/Rooms/Servidae/README.md) |
 
-| 🎮 TryHackMe SOC2 | **APIWizards Breach** | [View Writeup](./TryHackMe/Rooms/APIWizards-Breach/README.md) |
+| 🎮 TryHackMe _SOC2_ | **APIWizards Breach** | [View Writeup](./TryHackMe/Rooms/APIWizards-Breach/README.md) |
 
-| 🎮 TryHackMe SOC2 | **Conti** | [View Writeup](./TryHackMe/Rooms/Conti/README.md) |
+| 🎮 TryHackMe _SOC2_ | **Conti** | [View Writeup](./TryHackMe/Rooms/Conti/README.md) |
 
-| 🎮 TryHackMe SOC2 | **Friday-Overtime** | [View Writeup](./TryHackMe/Rooms/Friday-Overtime/README.md)
-
-
+| 🎮 TryHackMe _SOC2_ | **Friday-Overtime** | [View Writeup](./TryHackMe/Rooms/Friday-Overtime/README.md)
 
 
-| Home Lab | **Project-1** | [View Writeup](./Home%20Lab/Project-1/README.md) |
 
-| Home Lab | **Project-2** | [View Writeup](./Home-Lab/Project-2/README.md) |
 
-| Home Lab | **Project-3** | [View Writeup](./Home%20Lab/Project-3/README.md) |
+| 🏠 Home Lab | **Project-1** | [View Writeup](./Home%20Lab/Project-1/README.md) |
+
+| 🏠 Home Lab | **Project-2** | [View Writeup](./Home-Lab/Project-2/README.md) |
+
+| 🏠 Home Lab | **Project-3** | [View Writeup](./Home%20Lab/Project-3/README.md) |
 
 ---
 
