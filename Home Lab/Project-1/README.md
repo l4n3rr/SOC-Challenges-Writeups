@@ -1,4 +1,4 @@
-# Attack, Defend, Remediate, Test Remediation - Project
+# 📂 Attack, Defend, Remediate, Test Remediation - Project
 
 0.5. [Confirming that Splunk Server & Forwarders are working](./Step%200.5/README.md)
 1. [Brute Force Attack with Kali Linux](./Step%201/README.md)
