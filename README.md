@@ -7,12 +7,19 @@ I am an aspiring SOC Analyst documenting real lab work and investigations. CompT
 
 ## 🛠️ Stacks & Tools
 TryHackMe
+
 VirtualBox
+
 Powershell
+
 Wireshark
+
 Active Directory
+
 Python
+
 Cisco Packet Tracer
+
 Jira
 
 
