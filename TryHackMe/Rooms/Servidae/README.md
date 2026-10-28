@@ -1,4 +1,4 @@
-# SOC LVL2 Capstone Challenge Room
+# 📂 SOC LVL2 Capstone Challenge Room
 
 
 ## Context Info For Starting Investigation on Splunk
