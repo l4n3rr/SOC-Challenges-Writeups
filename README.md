@@ -1,4 +1,3 @@
-# SOC-Challenges-Writeups
 # 🛡️ My Cybersecurity / IT -- CTFs, Platforms, Home Lab WRITEUPS
 
 This repository serves as a centralized hub documenting my methodology, analytical thought process, and technical skills as I solve challenges.
