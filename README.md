@@ -27,7 +27,8 @@ Windows10,
 Windows11,
 Windows Event Viewer,
 Sysmon,
-Microsoft365
+Microsoft365,
+Entra ID
 
 
 ---
