@@ -7,13 +7,27 @@ I am an aspiring SOC Analyst documenting real lab work and investigations. CompT
 
 ## 🛠️ Stacks & Tools
 TryHackMe,
-VirtualBox,
+Splunk,
+ELK,
+Wazuh,
+Metasploit,
+Nmap,
+Oracle VirtualBox,
+Jira,
 Powershell,
+Bash,
+Python,
 Wireshark,
 Active Directory,
+Group Policy Object (GPO),
 Python,
 Cisco Packet Tracer,
-Jira
+Kali Linux,
+Windows10,
+Windows11,
+Windows Event Viewer,
+Sysmon,
+Microsoft365
 
 
 ---
