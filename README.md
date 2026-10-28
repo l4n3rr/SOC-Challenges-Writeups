@@ -3,7 +3,7 @@
 This repository serves as a centralized hub documenting my methodology, analytical thought process, and technical skills as I solve challenges.
 
 ## 👤 About Me
-I am an aspiring SOC Analyst focused on networking, defensive security, cloud infrastructure, and threat detection. I use these challenges to sharpen my skills in log analysis, network forensics, DFIR, SIEM search logic & queries and documentation.
+I am an aspiring SOC Analyst documenting real lab work and investigations. CompTIA Security+ certified, with hands-on experience in Splunk log analysis, Active Directory, PowerShell automation, and TryHackMe SOC Level 1 and 2 rooms. Every write-up here shows the steps I took, the evidence I found, and what I learned in order to sharpen my skills in log analysis, network forensics, DFIR, SIEM search logic & queries and documentation.
 
 ---
 
