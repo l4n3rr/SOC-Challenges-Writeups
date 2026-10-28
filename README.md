@@ -19,13 +19,13 @@ Links directly to my step-by-step walkthroughs and methodology for each complete
 
 
 
-| TryHackMe | **Servidae** (SOC Level 2 Capstone Challenge) | [View Writeup](./TryHackMe/Rooms/Servidae/README.md) |
+| 🎮 TryHackMe SOC2 | **Servidae** | [View Writeup](./TryHackMe/Rooms/Servidae/README.md) |
 
-| TryHackMe | **APIWizards Breach** | [View Writeup](./TryHackMe/Rooms/APIWizards-Breach/README.md) |
+| 🎮 TryHackMe SOC2 | **APIWizards Breach** | [View Writeup](./TryHackMe/Rooms/APIWizards-Breach/README.md) |
 
-| TryHackMe | **Conti** | [View Writeup](./TryHackMe/Rooms/Conti/README.md) |
+| 🎮 TryHackMe SOC2 | **Conti** | [View Writeup](./TryHackMe/Rooms/Conti/README.md) |
 
-| TryHackMe | **Friday-Overtime** | [View Writeup](./TryHackMe/Rooms/Friday-Overtime/README.md)
+| 🎮 TryHackMe SOC2 | **Friday-Overtime** | [View Writeup](./TryHackMe/Rooms/Friday-Overtime/README.md)
 
 
 
