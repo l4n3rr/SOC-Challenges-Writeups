@@ -51,7 +51,7 @@ Links directly to my step-by-step walkthroughs and methodology for each complete
 
 | 🎮 TryHackMe _SOC2_ | **Friday-Overtime** | [View Writeup](./TryHackMe/Rooms/Friday-Overtime/README.md)
 
-| 🎮 TryHackMe _Challenge Room_ | **Mr. Phisher** | [View Writeup](./TryHackMe/Rooms/Mr-Phisher/README.md) |
+| 🎮 TryHackMe _Challenge Room_ | **Warzone 1** | [View Writeup](./TryHackMe/Rooms/Warzone-1/README.md) |
 
 
 
