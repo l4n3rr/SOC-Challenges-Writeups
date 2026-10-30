@@ -43,7 +43,6 @@ Links directly to my step-by-step walkthroughs and methodology for each complete
 
 
 
-
 | 🎮 TryHackMe _SOC2_ | **Servidae** | [View Writeup](./TryHackMe/Rooms/Servidae/README.md) |
 
 | 🎮 TryHackMe _SOC2_ | **APIWizards Breach** | [View Writeup](./TryHackMe/Rooms/APIWizards-Breach/README.md) |
@@ -52,6 +51,7 @@ Links directly to my step-by-step walkthroughs and methodology for each complete
 
 | 🎮 TryHackMe _SOC2_ | **Friday-Overtime** | [View Writeup](./TryHackMe/Rooms/Friday-Overtime/README.md)
 
+| 🎮 TryHackMe challenge room | **Mr. Phisher** | [View Writeup](./TryHackMe/Rooms/Mr-Phisher/README.md) |
 
 
 
