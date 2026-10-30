@@ -8,7 +8,6 @@ TryHackMe challenge room — Wireshark pcap analysis.
 
 ## Investigation
 
-### Task 1: Your Shift just started and your first network alert comes in.
 
 1. What was the alert signature for Malware Command and Control Activity Detected?
 2. What is the source IP address? Enter your answer in a defanged format.
