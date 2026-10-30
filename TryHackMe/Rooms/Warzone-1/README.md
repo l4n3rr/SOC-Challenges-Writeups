@@ -6,6 +6,8 @@ TryHackMe challenge room — Wireshark pcap analysis.
 
 ## Goal
 
+Inspect the PCAP file and retrieve the artifacts to confirm this alert is a true positive.
+
 ## Investigation
 
 
