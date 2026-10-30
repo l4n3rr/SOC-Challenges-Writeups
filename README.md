@@ -57,7 +57,7 @@ Links directly to my step-by-step walkthroughs and methodology for each complete
 
 | 🏠 Home Lab | **Project-1** | [View Writeup](./Home%20Lab/Project-1/README.md) |
 
-| 🏠 Home Lab | **Project-2** | [View Writeup](./Home-Lab/Project-2/README.md) |
+| 🏠 Home Lab | **Project-2** | [View Writeup](./Home%20Lab/Project-2/README.md) |
 
 | 🏠 Home Lab | **Project-3** | [View Writeup](./Home%20Lab/Project-3/README.md) |
 
